@@ -1,0 +1,401 @@
+id_usuario,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,correo,telefono,direccion,fecha_registro,clave,rol,limite_prestamos
+1,Andrea,Alberto,Rodríguez,Chaparro,andrea.rodriguez@correo.edu.co,01 8005 025 513,"Carrera 4ª # 54C-75 Este, Etapa 5 apartamento 97, 258839, Tibacuy, Cundinamarca",2025-09-19,+1Lv(dVQMm,Bibliotecario,5
+2,Nancy,,Orozco,Gutiérrez,nancy.orozco@correo.edu.co,+573276618308,"Transversal 44 # 78-3 Este, Apartamento 13, 524391, Samaniego, Nariño",2023-08-31,0SPXHQz)@o,Docente,8
+3,Wilson,Armando,Hoyos,Vargas,wilson.hoyos@correo.edu.co,(+57)6011542306,"Cr. 1ª # 17-2 Sur, 192241, La Vega, Cauca",2025-08-21,@_*4KxoQ)p,Bibliotecario,3
+4,Gabriel,Juan,Díaz,Díaz,gabriel.diaz@correo.edu.co,57 316 201 90 11,"Cl. 41 # 5-6 Sur, Etapa 9 apartamento 5, 203325, San Diego, Cesar",2021-07-02,_14KeKk0VJ,Bibliotecario,3
+5,Miguel,Juan,Mosquera,Mendoza,miguel.mosquera@correo.edu.co,(+57)3273498529,"Avenida carrera 5ª # 36-6, 736559, Carmen de Apicalá, Tolima",2024-12-12,tI*M_8BtF9,Externo,2
+6,Enrique,Gladys,Londoño,Bermúdez,enrique.londono@correo.edu.co,3229853243,"Carrera 5H Bis # 7-94 Sur, Bodega 317, 542763, Hacarí, Norte de Santander",2021-01-05,U6*g_Hv5(r,Administrativo,5
+7,Humberto,Javier,Sierra,López,humberto.sierra@correo.edu.co,+57 323 710 30 73,"Carrera 90 Bis R # 4M-24, 732014, Coyaima, Tolima",2021-12-10,2ij@4MzhzY,Externo,8
+8,Wilmer,Liliana,González,Hernández,wilmer.gonzalez@correo.edu.co,573103694811,"Cl. 29 # 7-2, 197068, El Tambo, Cauca",2019-09-29,HfU^9iAd88,Estudiante,8
+9,Andrés,,López,Gómez,andres.lopez@correo.edu.co,018004101679,"Carrera 11V # 5-3, Apartamento 28, 236049, Planeta Rica, Córdoba",2019-12-10,puH8RnqW#_,Bibliotecario,5
+10,Angie,,Muñoz,Sánchez,angie.munoz@correo.edu.co,+576082353160,"Dg. 51 # 52A-8 Este, 737117, Roncesvalles, Tolima",2024-08-04,l&&2RoQrN!,Bibliotecario,2
+11,Gustavo,,Arias,Flórez,gustavo.arias@correo.edu.co,573239138107,"Avenida Maritza María Quintero # 7-36 Sur, Apto. 72, 412154, Hobo, Huila",2019-03-21,m6z0agsi@R,Estudiante,3
+12,Juan,David,Guzmán,Ceballos,juan.guzman@correo.edu.co,316 694 89 93,"Carrera 32 # 81-3 Sur, 055635, Vigía del Fuerte, Antioquia",2022-08-11,&F7YNbup28,Docente,3
+13,Jesús,Ever,Prieto,Muñoz,jesus.prieto@correo.edu.co,+57 327 100 66 89,"Calle 3 Bis # 3-9, Etapa 2 apartamento 8, 057623, Yalí, Antioquia",2018-01-11,#RMqREWe28,Docente,2
+14,Alberto,Martha,Arias,Ocampo,alberto.arias@correo.edu.co,57 608 335 05 35,"Carrera 1H # 9-1, Casa 14, 175780, Risaralda, Caldas",2023-07-04,9qv54CDt!t,Administrativo,2
+15,Francisco,Alexandra,Loaiza,Hernández,francisco.loaiza@correo.edu.co,576017218893,"Diagonal 8ª # 7-13 Sur, 238912, San Pelayo, Córdoba",2022-11-26,^kVAKSlUg8,Bibliotecario,2
+16,Clara,Lucía,Calderón,Ríos,clara.calderon@correo.edu.co,8610656,"Transversal 168 # 9-1, Torre 8 apartamento 57, 256527, Gama, Cundinamarca",2022-03-18,^2UX+aH73n,Administrativo,5
+17,Blanca,,Díaz,Sarmiento,blanca.diaz@correo.edu.co,+57 302 348 00 41,"Carrera 85 # 1-79, 685369, Villanueva, Santander",2018-03-04,@*9ZzmaXDW,Bibliotecario,8
+18,Paula,,Montoya,Arrieta,paula.montoya@correo.edu.co,(+57) 326 304 02 96,"Calle 24 # 38-2 Sur, Casa 22, 547429, Ocaña, Norte de Santander",2019-02-21,s_3SnHymhf,Bibliotecario,8
+19,José,,Suárez,Patiño,jose.suarez@correo.edu.co,310 220 61 90,"Calle 1ª # 6-7, 159719, Cómbita, Boyacá",2018-01-13,&fFkQFxAf2,Externo,3
+20,Alexandra,Julio,Bonilla,Rendón,alexandra.bonilla@correo.edu.co,+57 602 531 67 78,"Av. carrera 6ª # 2-2 Este, 470194, San Sebastián de Buenavista, Magdalena",2020-04-26,7DDaZN%n*S,Estudiante,3
+21,Silvia,Patricia,Camargo,Martínez,silvia.camargo@correo.edu.co,+57 608 131 16 78,"Carrera 72 Sur # 5Q-9 Sur, Bodega 73, 542371, El Carmen, Norte de Santander",2021-05-30,&oPc#v6n&3,Estudiante,3
+22,Diego,,García,Sánchez,diego.garcia@correo.edu.co,573259866932,"Av. calle 3ª # 2-5 Este, 739153, Icononzo, Tolima",2022-02-12,0J9!6ZqllO,Bibliotecario,5
+23,Leandro,Dora,Medina,Granados,leandro.medina@correo.edu.co,+57 319 764 87 84,"Calle 106 # 79-6 Sur, 685104, El Peñón, Santander",2018-06-25,(%JDLIOe55,Estudiante,8
+24,Rocío,Henry,Gaviria,García,rocio.gaviria@correo.edu.co,57 604 546 50 22,"Carrera 80 # 4-9, 769725, Bolívar, Valle del Cauca",2022-02-01,c@y_4Or+%T,Administrativo,5
+25,Yenifer,Sebastián,Marín,Medina,yenifer.marin@correo.edu.co,3232863011,"Avenida calle 9ª # 7-83 Este, 158426, Santa María, Boyacá",2023-11-06,Pv6WAgz3!),Externo,3
+26,María,Alcides,Alarcón,Castro,maria.alarcon@correo.edu.co,+576024132495,"Dg. 90 # 9G-18 Sur, 524617, Sandoná, Nariño",2024-03-24,%5D1B^3j%a,Estudiante,2
+27,Mercedes,,Ruiz,Mora,mercedes.ruiz@correo.edu.co,+573009016856,"Cr. 171M Este # 61-9 Sur, Bodega 270, 279027, Atrato, Chocó",2025-06-22,&UnNEdQb8%,Externo,2
+28,Janeth,,Muñoz,Franco,janeth.munoz@correo.edu.co,(+57)6096956572,"Transversal 8ª # 2-60 Este, 252662, La Calera, Cundinamarca",2022-06-04,Nq!q2+Nr%6,Estudiante,5
+29,Edwin,,Torres,Ruiz,edwin.torres@correo.edu.co,57 310 252 85 46,"Cr. 177 Este # 21-9 Sur, 152073, Coper, Boyacá",2023-05-16,ga#5E%Kw^n,Docente,5
+30,Marina,Javier,Martínez,Daza,marina.martinez@correo.edu.co,327 719 61 99,"Cr. 7ª # 43-5 Sur, 736764, Dolores, Tolima",2024-06-01,F!08TbcEjw,Externo,2
+31,Olga,,Trujillo,Rodríguez,olga.trujillo@correo.edu.co,6026547360,"Carrera 3ª # 48-5 Sur, Apto. 20, 761626, Argelia, Valle del Cauca",2022-11-03,tOBP9Esr*^,Externo,2
+32,Kelly,Marcos,Amaya,Salgado,kelly.amaya@correo.edu.co,+57 314 320 31 72,"Avenida carrera 39 # 12P-14, 666854, Belén de Umbría, Risaralda",2025-07-23,G+2hkBArD3,Estudiante,5
+33,Estiven,Adriana,Martínez,Franco,estiven.martinez@correo.edu.co,+573035636930,"Calle 94 # 68F-53, Apartamento 1, 131878, San Pablo, Bolívar",2018-11-21,8cT5ueyI^j,Externo,8
+34,José,Edwin,Hernández,Hernández,jose.hernandez@correo.edu.co,573281594747,"Cr. 8ª # 97T-5, Local 4, 055833, Angelópolis, Antioquia",2025-10-09,h8J5zgSd@I,Docente,5
+35,Elcy,Fanny,Burbano,Navarro,elcy.burbano@correo.edu.co,018003636885,"Carrera 180 # 83-7, Apto. 76, 059226, Girardota, Antioquia",2022-03-15,S&5exF9Vlf,Externo,8
+36,Virginia,,Restrepo,Mejía,virginia.restrepo@correo.edu.co,57 326 408 38 58,"Calle 129 Sur # 26L-95 Este, 051657, Girardota, Antioquia",2019-01-10,oA1%aU!d*V,Bibliotecario,2
+37,Jorge,Wilfredo,Pineda,Franco,jorge.pineda@correo.edu.co,(+57) 606 193 01 12,"Av. Cundinamarca # 7-43, Oficina 14, 086952, Juan de Acosta, Atlántico",2020-07-31,0$8OAvmks_,Externo,8
+38,Susana,Daniela,Garcés,Galvis,susana.garces@correo.edu.co,3105714469,"Av. calle 134 # 5-71 Este, 523544, Mallama, Nariño",2021-09-23,mE82hRv9&4,Administrativo,5
+39,Guillermo,Hernán,Rojas,Mantilla,guillermo.rojas@correo.edu.co,573185320775,"Dg. 66 # 1B-55 Sur, 869834, Colón, Putumayo",2018-03-10,!RHXm$2by5,Externo,3
+40,Wendy,Néstor,Rincón,Sánchez,wendy.rincon@correo.edu.co,+573145038016,"Tr. 44D # 3-81 Este, Local 910, 150450, Santana, Boyacá",2020-01-10,Op%13Hy_aU,Externo,2
+41,Rosa,Miryam,Ortiz,Caicedo,rosa.ortiz@correo.edu.co,+57 312 510 85 73,"Cl. 8C # 64-65 Este, 866091, San Miguel, Putumayo",2020-08-22,u$NS*7Wb*o,Bibliotecario,3
+42,Óscar,,Castellanos,Cano,oscar.castellanos@correo.edu.co,573241260848,"Carrera 4A # 25T-7 Este, Bodega 7, 156931, La Capilla, Boyacá",2021-06-24,#*0JkmteI4,Bibliotecario,8
+43,Julio,Pablo,Contreras,Cortés,julio.contreras@correo.edu.co,576013485142,"Cl. 85 # 2-22 Este, Torre 7 apartamento 50, 523134, Ospina, Nariño",2022-03-25,^4S&o3AKXa,Estudiante,2
+44,Michel,Paola,Bedoya,Ruiz,michel.bedoya@correo.edu.co,3229179265,"Carrera 122T # 9-4 Sur, 082910, Luruaco, Atlántico",2021-08-04,KkKN1ZTcO),Bibliotecario,2
+45,Katherine,Elena,Muñoz,Ruiz,katherine.munoz@correo.edu.co,9202683,"Cl. 130 # 4-59 Sur, Apartamento 45, 769586, Guadalajara de Buga, Valle del Cauca",2021-03-30,_7V_kS*l6S,Estudiante,3
+46,Alfredo,Eugenia,Vargas,Castro,alfredo.vargas@correo.edu.co,+576024184220,"Avenida El Tarra # 46-7, Casa 6, 910831, Puerto Nariño, Amazonas",2020-07-02,$&8N6GSvVA,Administrativo,8
+47,María,Sonia,García,Bermúdez,maria.garcia@correo.edu.co,604 507 07 16,"Calle 2ª # 54-65 Sur, Apartamento 91, 527085, La Unión, Nariño",2019-03-08,HD7ELOtL)(,Docente,8
+48,Juan,Yenny,Hernández,Castillo,juan.hernandez@correo.edu.co,+57 317 830 55 73,"Av. carrera 144 # 86-72, Apto. 44, 702346, El Roble, Sucre",2024-04-28,w3lI*Aj*+A,Docente,8
+49,Felipe,Adriana,Salgado,Muñoz,felipe.salgado@correo.edu.co,6079465689,"Cr. 136 # 31-35 Este, Apartamento 48, 730483, Piedras, Tolima",2019-11-06,01VW8$7u)_,Docente,3
+50,Carmen,,Sánchez,Acosta,carmen.sanchez@correo.edu.co,(+57) 323 018 17 96,"Calle 22F # 51-9 Sur, 054997, Tarso, Antioquia",2024-09-26,g^R6vLqOYc,Administrativo,5
+51,Simón,Alejandra,López,Hurtado,simon.lopez@correo.edu.co,57 315 726 16 94,"Carrera 3ª # 11-83, Torre 8 apartamento 9, 668999, Mistrató, Risaralda",2018-10-15,kd(4Lgul&7,Docente,2
+52,María,,Miranda,Álvarez,maria.miranda@correo.edu.co,+576069372954,"Calle 25K # 24-3 Sur, Torre 6 apartamento 7, 477439, Santa Bárbara de Pinto, Magdalena",2021-01-30,(1nUqsx*e1,Administrativo,5
+53,Jhon,,Medina,Jaramillo,jhon.medina@correo.edu.co,+57 305 413 84 53,"Cr. 79 Sur # 94-85, Local 7, 130796, Turbaná, Bolívar",2024-10-20,T4WX*Nb1_i,Bibliotecario,2
+54,Fernanda,,Trujillo,Ramírez,fernanda.trujillo@correo.edu.co,573270721734,"Cr. 70 Este # 43-72 Sur, Casa 5, 052419, Briceño, Antioquia",2023-05-02,%k90Drp+y#,Docente,5
+55,Jhon,Natalia,Peña,Narváez,jhon.pena@correo.edu.co,518 61 56,"Cr. 64 # 99V-30 Sur, Etapa 2 apartamento 55, 053705, Barbosa, Antioquia",2024-03-31,2G11UAuw5@,Externo,3
+56,Cristina,,Montoya,López,cristina.montoya@correo.edu.co,+57 301 183 90 93,"Calle 4 Bis G # 9V-9 Este, 410662, Palermo, Huila",2018-08-24,M*3IgXgP$E,Externo,3
+57,Gloria,,Barbosa,Garcés,gloria.barbosa@correo.edu.co,01 8005 507 435,"Avenida Jorge Rojas Carvajal # 7P-6, Local 397, 053969, El Bagre, Antioquia",2021-11-28,S2#VD8zw%7,Externo,3
+58,Uriel,Ruby,Fernández,León,uriel.fernandez@correo.edu.co,+57 307 061 70 69,"Cl. 75 # 15-6, Apto. 51, 053847, Sonsón, Antioquia",2018-10-29,cGb7rNad(8,Administrativo,2
+59,María,,Obando,Carmona,maria.obando@correo.edu.co,+573105669375,"Avenida González # 45E-90 Sur, 418925, Tello, Huila",2018-08-04,7FnNkYx6+U,Administrativo,2
+60,Paula,Judith,Rodríguez,Villa,paula.rodriguez@correo.edu.co,6062127896,"Avenida Arauca # 1-42 Este, 208670, San Martín, Cesar",2023-06-13,c3&3jIgj*^,Externo,8
+61,Manuel,,López,Forero,manuel.lopez@correo.edu.co,+576068731744,"Transversal 5 Bis P # 55-59 Este, 707850, Morroa, Sucre",2023-06-17,CVoL46Qw$5,Bibliotecario,5
+62,María,,Bohórquez,Rodríguez,maria.bohorquez@correo.edu.co,326 751 49 75,"Cr. 106B Bis # 9-35, Etapa 2 apartamento 27, 200990, Chimichagua, Cesar",2025-05-12,+QwC4FXi2c,Docente,3
+63,María,,Anaya,Daza,maria.anaya@correo.edu.co,(+57)6022034956,"Cl. 144N Sur # 26-9 Este, Oficina 6, 765837, La Cumbre, Valle del Cauca",2019-06-28,_86VHQpGre,Administrativo,8
+64,Nubia,Alberto,Rivera,Silva,nubia.rivera@correo.edu.co,(+57)6038423302,"Calle 2ª # 16-5 Sur, 682214, Concepción, Santander",2023-04-01,Sg6g7HLpn%,Estudiante,8
+65,María,Yesid,Arboleda,Pérez,maria.arboleda@correo.edu.co,308 735 18 66,"Calle 68L # 7-6 Este, Bodega 81, 413518, Tesalia, Huila",2021-09-07,vtE0GSCq@5,Externo,2
+66,Wilmer,,Domínguez,Cortés,wilmer.dominguez@correo.edu.co,+57 315 581 67 59,"Avenida Bogotá, D.C. # 23-58 Sur, 198918, Balboa, Cauca",2018-05-04,$wE+cqUh54,Bibliotecario,5
+67,Patricia,Eugenia,Ortega,Ramírez,patricia.ortega@correo.edu.co,214 61 33,"Cl. 1ª # 28-2, Local 6, 475303, Santa Ana, Magdalena",2025-07-07,S6LLge5l)t,Estudiante,3
+68,Juan,Isabel,Rico,Zuluaga,juan.rico@correo.edu.co,(+57) 305 206 41 91,"Calle 71X # 96-3, Oficina 26, 050822, Envigado, Antioquia",2025-01-02,OUHa1Xjz#_,Administrativo,5
+69,Mauricio,María,Jaramillo,Hernández,mauricio.jaramillo@correo.edu.co,317 228 70 32,"Calle 195 # 6-3 Este, 152438, Sutamarchán, Boyacá",2023-12-05,!l5uVwql$S,Docente,8
+70,Julián,,Sanabria,Rivas,julian.sanabria@correo.edu.co,+57 307 695 09 04,"Calle 188 # 98-8 Este, Local 74, 131655, Santa Cruz de Mompox, Bolívar",2023-01-05,&wYN3a$Zr5,Externo,5
+71,Luis,,Rodríguez,Castro,luis.rodriguez@correo.edu.co,(+57) 307 199 03 80,"Cr. 8I # 1X-6, Local 283, 209441, San Alberto, Cesar",2020-08-22,%E&gNZEr7a,Externo,8
+72,Rocío,José,Delgado,Aguilar,rocio.delgado@correo.edu.co,(+57) 326 562 92 58,"Cl. 96 # 96-5 Este, Casa 9, 191832, Mercaderes, Cauca",2024-02-15,O&78lNyuUn,Bibliotecario,8
+73,Ángela,,Acevedo,García,angela.acevedo@correo.edu.co,325 559 28 97,"Cr. 119 # 66-44 Sur, 258626, Villa de San Diego de Ubaté, Cundinamarca",2024-10-11,)ijLrzKW56,Bibliotecario,8
+74,Felipe,Leonardo,Martínez,González,felipe.martinez@correo.edu.co,+573001597224,"Carrera 99 # 26-90, Casa 98, 154927, Soracá, Boyacá",2018-02-03,2%!o0ZhgrH,Bibliotecario,8
+75,Luisa,Alonso,Herrera,Orozco,luisa.herrera@correo.edu.co,(+57) 310 967 46 27,"Avenida calle 75 # 92-6 Este, Apartamento 64, 151928, San Luis de Gaceno, Boyacá",2020-08-08,x2CaaTlb!q,Bibliotecario,2
+76,Rosa,,Muñoz,Valderrama,rosa.munoz@correo.edu.co,57 316 784 46 07,"Carrera 5ª # 3-64, Bodega 6, 057755, Entrerríos, Antioquia",2021-05-01,_1iiQNiNK1,Estudiante,3
+77,Yazmín,Julieth,Suárez,Ávila,yazmin.suarez@correo.edu.co,(+57)3043687715,"Av. carrera 4ª # 6-41 Sur, 669076, Mistrató, Risaralda",2018-06-06,z7(wOMpd)7,Bibliotecario,5
+78,Marcela,Dayana,Morales,Burgos,marcela.morales@correo.edu.co,(+57)3164135474,"Cl. 18 # 6V-8 Este, 152328, Tunja",2025-09-14,u*)4Ptl7Zj,Administrativo,5
+79,Estefanía,Karen,Restrepo,Vargas,estefania.restrepo@correo.edu.co,+573214797341,"Calle 79 # 2-8 Sur, 524560, Pasto",2021-02-16,i0#GUVbO)W,Docente,8
+80,Rubén,Lucía,Zambrano,Morales,ruben.zambrano@correo.edu.co,57 308 967 63 53,"Cl. 43 Sur # 4D-1, 680722, Floridablanca, Santander",2019-07-19,M30Zy4Bt4%,Administrativo,5
+81,Jhoan,Alba,Corredor,Ramírez,jhoan.corredor@correo.edu.co,9073565,"Cr. 188E # 2-29, 153794, Úmbita, Boyacá",2019-09-09,l^20Gz&(O_,Externo,8
+82,Helena,Rafael,Ruiz,Corredor,helena.ruiz@correo.edu.co,(+57) 306 532 55 44,"Av. carrera 152 # 9-9, Apto. 91, 136738, Calamar, Bolívar",2024-09-30,+9Gjospv7b,Administrativo,5
+83,Alexander,Olga,Vargas,Ortiz,alexander.vargas@correo.edu.co,+576047112728,"Carrera 48D # 66-12 Sur, 050906, Buriticá, Antioquia",2025-04-13,&1&W8QcTa7,Docente,8
+84,Lorena,Pablo,Pérez,Meza,lorena.perez@correo.edu.co,(+57)3164967419,"Cr. 103U # 2-85 Este, 134909, Santa Cruz de Mompox, Bolívar",2018-08-13,g!U1zRGwMc,Externo,5
+85,Tatiana,,Galeano,Padilla,tatiana.galeano@correo.edu.co,(+57)3126022169,"Cr. 139 Bis # 60-86, Bodega 68, 059335, Gómez Plata, Antioquia",2024-11-18,D1Pje)qg^t,Docente,2
+86,Liliana,,Jaramillo,Morales,liliana.jaramillo@correo.edu.co,329 903 59 71,"Av. Santos # 5-72, Bodega 20, 765687, Argelia, Valle del Cauca",2022-04-13,^5YT15MihL,Estudiante,3
+87,Lorena,Camila,Posada,Benítez,lorena.posada@correo.edu.co,(+57)3231730332,"Avenida Bogotá, D.C. # 47-2 Este, Oficina 875, 250484, Sibaté, Cundinamarca",2019-11-21,@50$VoMaUr,Bibliotecario,2
+88,Yeny,Elver,Ortega,Suárez,yeny.ortega@correo.edu.co,+573254565728,"Av. carrera 1ª # 99-50 Este, Casa 39, 704854, Buenavista, Sucre",2022-08-23,Io8VWuLx&4,Bibliotecario,2
+89,María,,Castañeda,Marín,maria.castaneda@correo.edu.co,+573277957039,"Cr. 1ª # 63Y-2, 667927, Apía, Risaralda",2018-03-18,(kNfa025c9,Bibliotecario,5
+90,Juan,Ángela,Castro,Rodríguez,juan.castro@correo.edu.co,(+57) 310 694 30 69,"Carrera 4ª # 10-7 Sur, 505294, Puerto Concordia, Meta",2023-05-22,9N86Rkhl%6,Externo,2
+91,Francisco,,Valencia,Bastidas,francisco.valencia@correo.edu.co,3242550786,"Dg. 17 # 69C-9 Sur, Bodega 90, 863922, Villagarzón, Putumayo",2023-04-08,U)3TSyrOn&,Administrativo,2
+92,Orlando,Carolina,Figueroa,Ortega,orlando.figueroa@correo.edu.co,(+57) 314 416 03 32,"Cl. 112 # 12E-2 Este, 951028, El Retorno, Guaviare",2024-06-16,*58O_J^l7I,Bibliotecario,3
+93,Maritza,,Parra,Duarte,maritza.parra@correo.edu.co,+573244203607,"Cl. 48 # 7-10, Local 5, 919587, Puerto Alegría, Amazonas",2024-09-26,%5N7bDtXMO,Docente,5
+94,Yurani,Yeferson,Obando,Camacho,yurani.obando@correo.edu.co,6012925192,"Dg. 8Y # 38-2 Sur, Local 3, 159704, Viracachá, Boyacá",2023-01-25,)(5WK80zkC,Bibliotecario,8
+95,Stella,,Arrieta,Niño,stella.arrieta@correo.edu.co,3226259188,"Avenida Pulí # 4-64 Sur, Apto. 397, 256772, Funza, Cundinamarca",2021-06-01,)yQpCIeAs7,Externo,3
+96,Alba,Andrés,Rodríguez,Jiménez,alba.rodriguez@correo.edu.co,3179600094,"Cr. 122 # 3-19, 056242, Betania, Antioquia",2023-05-17,W&9uY%HbM(,Externo,2
+97,Mercedes,Patricia,Rincón,Gaviria,mercedes.rincon@correo.edu.co,3290018429,"Cr. 8W # 41-15, Torre 6 apartamento 972, 239835, Tuchín, Córdoba",2020-01-13,#MjH6fYfUe,Externo,8
+98,Silvia,,Leal,Franco,silvia.leal@correo.edu.co,573127873554,"Cl. 149 # 5-43 Este, 059206, Támesis, Antioquia",2023-12-01,8pg6qSca)d,Externo,2
+99,Diana,Inés,Rodríguez,Ramos,diana.rodriguez@correo.edu.co,(+57) 305 330 23 64,"Diagonal 12 # 1-65, 150985, Caldas, Boyacá",2020-08-10,&C0OEhBp%V,Docente,8
+100,Ingrid,Patricia,Vega,Sánchez,ingrid.vega@correo.edu.co,57 311 253 80 78,"Carrera 175K # 7-71, 139419, Arroyohondo, Bolívar",2023-12-28,)8#8JUupbq,Estudiante,3
+101,María,Jaime,Cruz,Ballesteros,maria.cruz@correo.edu.co,+573104205986,"Av. calle 9ª # 1-2, 763360, Guacarí, Valle del Cauca",2020-03-21,I@$4YnyTR3,Docente,8
+102,Luis,Martha,Parada,Ortega,luis.parada@correo.edu.co,018005185690,"Transversal 8ª # 1-9, 527280, Aldana, Nariño",2025-09-06,YLE8M4Oe_4,Bibliotecario,8
+103,Rafael,Juan,Villamil,Arias,rafael.villamil@correo.edu.co,+57 305 498 36 71,"Calle 185 # 71-51 Sur, 256886, Apulo, Cundinamarca",2024-11-03,&FLz6vPt03,Administrativo,8
+104,Fredy,Erika,Quintero,Mercado,fredy.quintero@correo.edu.co,57 307 773 03 16,"Calle 5ª # 52-65 Sur, 764872, Caicedonia, Valle del Cauca",2021-02-07,V#0KbVSj!H,Bibliotecario,8
+105,Natalia,Diana,Rojas,Ramírez,natalia.rojas@correo.edu.co,3138300091,"Av. Putumayo # 7-74, Torre 6 apartamento 39, 277417, Río Iró, Chocó",2021-07-05,(*9Pw+jY%0,Docente,8
+106,María,Nidia,Correa,Márquez,maria.correa@correo.edu.co,601 525 15 89,"Carrera 2ª # 3G-8 Este, 151666, Cerinza, Boyacá",2020-10-14,(XYGi&_G4S,Administrativo,5
+107,Milena,Andrés,Perea,Ramírez,milena.perea@correo.edu.co,(+57)6061373714,"Cr. 161H Bis A # 8-2 Este, 256914, Beltrán, Cundinamarca",2019-06-25,l1gDsaWr)I,Estudiante,8
+108,Eder,Marina,García,López,eder.garcia@correo.edu.co,(+57)6016811814,"Carrera 1 Bis # 8M-2 Sur, Torre 3 apartamento 69, 134470, Río Viejo, Bolívar",2018-07-18,3@*l8O8qw_,Bibliotecario,2
+109,Dario,,Cárdenas,Ortiz,dario.cardenas@correo.edu.co,303 744 99 98,"Cr. 24 # 7-1, Apartamento 4, 686941, Simacota, Santander",2025-11-09,#5%Z$Oz56Y,Docente,3
+110,Jorge,,Jiménez,Mesa,jorge.jimenez@correo.edu.co,3053606400,"Carrera 4 Bis A # 11-1 Sur, 279894, Acandí, Chocó",2023-09-11,*Yi4NUAc0z,Docente,2
+111,Martha,,Rivas,Marín,martha.rivas@correo.edu.co,573200490214,"Carrera 66 # 4-22 Sur, 273338, El Carmen de Atrato, Chocó",2025-07-24,5_!0%GxVGH,Bibliotecario,3
+112,René,,Ávila,Jaimes,rene.avila@correo.edu.co,(+57)3231739462,"Avenida carrera 168 # 51-2, 255392, Topaipí, Cundinamarca",2021-12-26,)i9GvGFz*%,Docente,8
+113,Paola,Óscar,Giraldo,Herrera,paola.giraldo@correo.edu.co,(+57) 319 893 54 64,"Avenida carrera 4ª # 53-3 Sur, 635570, Buenavista, Quindío",2021-03-29,+1XxE)rZCX,Administrativo,8
+114,Julián,Orlando,González,Fuentes,julian.gonzalez@correo.edu.co,+576084156161,"Cr. 58 # 16-99 Sur, Etapa 9 apartamento 2, 250088, Pulí, Cundinamarca",2024-12-10,u*77)2GMYv,Externo,2
+115,Isabel,Dagoberto,Perdomo,Contreras,isabel.perdomo@correo.edu.co,+57 607 520 63 18,"Cr. 96N Este # 2-7 Sur, Bodega 7, 152364, Miraflores, Boyacá",2018-11-23,_&4egaAhs+,Bibliotecario,3
+116,Mery,,Agudelo,Cruz,mery.agudelo@correo.edu.co,+57 309 995 22 52,"Tr. 13 # 90-1 Sur, 688111, Aratoca, Santander",2020-02-10,PBDbj%Zc(7,Estudiante,5
+117,Carolina,Maritza,López,Sánchez,carolina.lopez@correo.edu.co,(+57) 306 372 16 26,"Calle 199K Bis # 87-4 Este, 548418, San Calixto, Norte de Santander",2021-05-15,n*p9DTGtf7,Estudiante,5
+118,Franklin,,Cárdenas,Torres,franklin.cardenas@correo.edu.co,(+57) 326 256 76 11,"Tr. 90 # 59-92, Local 92, 170080, Marmato, Caldas",2019-05-19,l#7eHfZ4(E,Administrativo,8
+119,Rosa,Gilma,Rodríguez,Garzón,rosa.rodriguez@correo.edu.co,6027842874,"Cr. 10 # 20C-58 Este, Bodega 75, 172955, Marmato, Caldas",2025-09-25,4q3We!L)(+,Administrativo,3
+120,Manuel,Henry,Bedoya,Ramírez,manuel.bedoya@correo.edu.co,(+57)3253916928,"Cr. 103 # 5-60 Sur, 056968, Jericó, Antioquia",2023-10-20,*%U!19Am#C,Externo,2
+121,Isabel,,Garcés,Serrano,isabel.garces@correo.edu.co,3080924115,"Cr. 32 # 68-90 Este, Local 191, 051525, Apartadó, Antioquia",2019-12-16,$5uUwoAz07,Externo,8
+122,Ángel,,García,Caro,angel.garcia@correo.edu.co,3055862778,"Tr. 5A # 98L-1 Este, Casa 7, 941748, Puerto Colombia, Guainía",2024-05-26,Jl7ADrz4w),Docente,3
+123,María,Felipe,Romero,Parra,maria.romero@correo.edu.co,+573177991137,"Av. Antioquia # 95-8, 234511, Valencia, Córdoba",2021-09-08,15VeWF!Q@f,Externo,5
+124,Alexis,,Fernández,Camargo,alexis.fernandez@correo.edu.co,8746113,"Avenida Buesaco # 6E-98 Este, Bodega 26, 153878, Páez, Boyacá",2018-03-23,(j7QUH5us6,Estudiante,5
+125,Amparo,Juan,Ávila,Páez,amparo.avila@correo.edu.co,573145744410,"Av. Caquetá # 40-64 Este, 683475, Suratá, Santander",2021-08-05,QwZ8gGWt_E,Externo,8
+126,Elkin,,Zapata,Guerrero,elkin.zapata@correo.edu.co,01 8001 678 434,"Calle 80 # 73-3, 057613, Puerto Berrío, Antioquia",2018-12-10,P$3WVWwTc$,Externo,3
+127,Valentina,,Sánchez,Moreno,valentina.sanchez@correo.edu.co,(+57)3114972490,"Cr. 109 # 6-65 Sur, 197714, Patía, Cauca",2022-01-30,#7B^IAek+l,Estudiante,8
+128,Carlos,Edison,Hurtado,Arteaga,carlos.hurtado@correo.edu.co,(+57) 607 270 65 07,"Cr. 130 # 65L-6 Este, Casa 3, 155644, Ventaquemada, Boyacá",2018-02-26,3C!0iWEn4^,Docente,2
+129,Daniel,Luz,Buitrago,Peña,daniel.buitrago@correo.edu.co,6037823696,"Carrera 19O # 17-2 Sur, Casa 3, 059755, Chigorodó, Antioquia",2018-09-16,%13F#KN0_b,Externo,3
+130,Felipe,,Ordóñez,García,felipe.ordonez@correo.edu.co,3096921053,"Avenida Zarzal # 8-57, 050082, Girardota, Antioquia",2025-02-28,0jKRK0S_*+,Externo,5
+131,Piedad,,Escobar,Martínez,piedad.escobar@correo.edu.co,3146658952,"Av. calle 6ª # 8-4 Sur, 254724, Tenjo, Cundinamarca",2020-05-18,(7W@!diINL,Administrativo,8
+132,Anderson,José,Calderón,Posada,anderson.calderon@correo.edu.co,(+57) 603 984 26 80,"Avenida carrera 118 # 75B-7 Este, 150053, Tasco, Boyacá",2022-01-22,^0ZgzxUF(M,Administrativo,8
+133,Cristian,,Orjuela,Hernández,cristian.orjuela@correo.edu.co,57 313 541 60 19,"Avenida Rosa María Correa # 1-8 Sur, 130867, Río Viejo, Bolívar",2019-06-07,!4FKGdZh&H,Estudiante,3
+134,Luz,,López,Cortés,luz.lopez@correo.edu.co,57 310 205 02 54,"Av. Ortega # 89Z-5 Este, Casa 4, 731029, Coello, Tolima",2024-01-28,*JUhhAn0+5,Administrativo,8
+135,Blanca,Karina,González,Patiño,blanca.gonzalez@correo.edu.co,(+57)3074051337,"Cr. 57 # 60-9 Sur, Bodega 796, 256085, Cáqueza, Cundinamarca",2019-12-12,)8XQ6QCq8$,Externo,5
+136,Carlos,Carlos,Mendoza,Díaz,carlos.mendoza@correo.edu.co,57 313 527 91 11,"Diagonal 4C # 7-29 Este, 138985, Santa Rosa, Bolívar",2018-08-01,Ld3dBvir__,Estudiante,3
+137,Willian,,Zapata,Montenegro,willian.zapata@correo.edu.co,9554829,"Calle 42 # 97D-5 Este, 739847, Prado, Tolima",2023-09-21,JLORlDCi*2,Bibliotecario,2
+138,Juan,,Ríos,Cruz,juan.rios@correo.edu.co,325 445 84 74,"Cr. 151 # 73S-44 Este, Torre 5 apartamento 1, 086059, Sabanalarga, Atlántico",2025-08-15,o0RkNDeb)u,Docente,5
+139,Ricardo,,Hernández,Hernández,ricardo.hernandez@correo.edu.co,57 300 706 59 48,"Cl. 37 # 8U-2 Este, Local 40, 052743, Jericó, Antioquia",2021-10-23,2qJpl*Yj&O,Administrativo,3
+140,Eliecer,Marta,Ruiz,Nieto,eliecer.ruiz@correo.edu.co,319 858 66 35,"Transversal 98 # 1-69 Este, Local 5, 688825, Hato, Santander",2022-10-27,%6Sw+dR9rC,Docente,8
+141,John,,Ríos,Gaviria,john.rios@correo.edu.co,(+57)3212320366,"Calle 77 # 13X-92 Sur, 852685, Trinidad, Casanare",2025-04-02,K^h*b8HiDq,Estudiante,8
+142,Carolina,,Posada,Hernández,carolina.posada@correo.edu.co,+573270045358,"Transversal 17 # 5-12 Este, 523228, Chachagüí, Nariño",2023-09-25,9#Wk5yKkya,Estudiante,3
+143,Moisés,,Montoya,Pedraza,moises.montoya@correo.edu.co,57 319 646 73 86,"Calle 52W # 65-9 Sur, 503322, Lejanías, Meta",2023-09-07,+J+c7BAa8+,Administrativo,8
+144,María,,Cortés,Ruiz,maria.cortes@correo.edu.co,+576091120339,"Cl. 11R # 20-6, Torre 9 apartamento 82, 153568, Jericó, Boyacá",2018-10-26,2H@ZL7IzB$,Docente,5
+145,Jhon,,Murillo,Burbano,jhon.murillo@correo.edu.co,317 595 99 55,"Dg. 24 # 69-3 Este, Local 62, 057148, Granada, Antioquia",2023-03-13,s^2vsXZPjv,Administrativo,2
+146,Andrea,Hernán,Arias,Jiménez,andrea.arias@correo.edu.co,3152030276,"Transversal 52 # 3J-40 Sur, 250353, San Cayetano, Cundinamarca",2021-07-23,$U&kUz#fa4,Estudiante,5
+147,Elías,,Acosta,Barreto,elias.acosta@correo.edu.co,123 25 46,"Cr. 79 # 97-76, 138571, San Cristóbal, Bolívar",2024-01-04,m7(@H&d3#j,Docente,5
+148,María,David,Angarita,Martínez,maria.angarita@correo.edu.co,018008196645,"Av. carrera 131 # 42-7 Este, Torre 2 apartamento 2, 173356, Chinchiná, Caldas",2021-11-17,y7d^B!aj&&,Administrativo,5
+149,María,John,Gómez,Moreno,maria.gomez@correo.edu.co,(+57)3020344956,"Calle 4W Bis E # 7-4, 050775, Heliconia, Antioquia",2021-12-10,&ZfGxbyvj0,Estudiante,3
+150,David,Humberto,Rojas,Salazar,david.rojas@correo.edu.co,(+57)3200599469,"Cr. 18 # 29-57 Este, Oficina 4, 547007, Sardinata, Norte de Santander",2024-12-01,63NghCRO!8,Estudiante,8
+151,Olga,Mary,Ardila,Sepúlveda,olga.ardila@correo.edu.co,57 322 285 82 58,"Av. calle 9ª # 7Y-83 Este, Etapa 6 apartamento 6, 509603, Cubarral, Meta",2024-12-31,OHTY3Rw7(6,Administrativo,8
+152,Piedad,Francisco,Delgado,Daza,piedad.delgado@correo.edu.co,(+57) 301 637 12 06,"Carrera 90 # 5-5, 257601, Cabrera, Cundinamarca",2022-12-06,(73F^Ir*^#,Docente,5
+153,Alberto,Pilar,Zambrano,Páez,alberto.zambrano@correo.edu.co,(+57)3154654268,"Avenida Víctor Álvarez # 75S-16, Oficina 937, 254034, La Calera, Cundinamarca",2018-01-05,W$0CjwxcVt,Docente,2
+154,Sara,Andrés,Lozano,Navarro,sara.lozano@correo.edu.co,+576051957093,"Diagonal 94 # 8-17, Oficina 6, 133640, Regidor, Bolívar",2021-01-22,OUeU6FzVE+,Externo,5
+155,Isabel,Ana,Villamizar,Benavides,isabel.villamizar@correo.edu.co,316 275 28 00,"Cl. 71 # 38-73 Sur, 159459, Firavitoba, Boyacá",2024-09-06,fcc$+8Tp)e,Administrativo,5
+156,Joaquín,,Daza,Moreno,joaquin.daza@correo.edu.co,(+57) 309 484 14 23,"Avenida carrera 97 # 4-1, 442875, Riohacha",2019-06-08,&wMnDTri5M,Bibliotecario,2
+157,Yaneth,,Montenegro,Rubio,yaneth.montenegro@correo.edu.co,57 329 116 11 46,"Cr. 47 # 68Y-38, Etapa 7 apartamento 2, 259754, Puerto Salgar, Cundinamarca",2020-11-07,r7J!MT(_*C,Estudiante,2
+158,Luis,Claudia,Pérez,Ramos,luis.perez@correo.edu.co,+576097966602,"Av. Fabiola Díaz # 10P-89, 524682, Guaitarilla, Nariño",2019-11-07,$YhQeihvy7,Docente,2
+159,Luisa,Luisa,Sánchez,Vélez,luisa.sanchez@correo.edu.co,573274876296,"Cr. 91 # 2-8 Este, 507267, San Juan de Arama, Meta",2018-07-15,%p7PC)s1yH,Externo,8
+160,Alexander,Rubén,Herrera,Cantillo,alexander.herrera@correo.edu.co,57 317 330 90 74,"Carrera 31 # 4-88 Este, 052247, Puerto Nare, Antioquia",2021-11-02,fE9AbiW3)K,Docente,2
+161,Vicente,,Benavides,Pérez,vicente.benavides@correo.edu.co,(+57) 323 723 72 25,"Cr. 14 # 1-57, 200089, San Diego, Cesar",2020-09-09,3YRlY8Hg$E,Administrativo,3
+162,Antonia,,Mendoza,Vega,antonia.mendoza@correo.edu.co,57 311 769 68 06,"Cr. 164 # 4-3 Este, Local 64, 415783, Acevedo, Huila",2024-12-25,JRXUxQTt*3,Docente,8
+163,Javier,Ana,Arias,Moreno,javier.arias@correo.edu.co,606 298 59 65,"Cr. 47M # 26P-57 Este, 056686, Jericó, Antioquia",2021-09-17,_)8&gNCAph,Administrativo,5
+164,Rafael,,Vargas,Buitrago,rafael.vargas@correo.edu.co,3139639949,"Carrera 130 # 2-1 Este, 506531, Cabuyaro, Meta",2022-04-17,b4g7GaMm#0,Docente,5
+165,Alba,Fernanda,Gonzáles,Osorio,alba.gonzales@correo.edu.co,(+57) 310 191 09 04,"Carrera 97S Este # 5-25 Sur, Oficina 73, 856447, Paz de Ariporo, Casanare",2022-03-02,&WOt0ZetZT,Externo,5
+166,John,,Becerra,Guerrero,john.becerra@correo.edu.co,573147338780,"Carrera 177 Bis # 9-9 Este, 476651, El Retén, Magdalena",2022-12-18,$EWHB3h+7I,Bibliotecario,3
+167,Blanca,,Arenas,Cantillo,blanca.arenas@correo.edu.co,3043435486,"Calle 4 Sur # 7-54 Sur, Casa 2, 475603, Remolino, Magdalena",2020-07-28,&0JKMsVarJ,Bibliotecario,3
+168,Benjamín,Leidy,Córdoba,Duarte,benjamin.cordoba@correo.edu.co,+573158681900,"Cr. 113A # 15-1, Apto. 6, 415286, Isnos, Huila",2021-03-30,p5*q#Z9E)x,Docente,2
+169,Kelly,Néstor,Montes,Carvajal,kelly.montes@correo.edu.co,57 602 236 50 55,"Cr. 49E # 18-85 Este, Oficina 917, 237080, Tierralta, Córdoba",2025-08-25,@V39N8Ec$q,Administrativo,2
+170,Omar,,García,Oviedo,omar.garcia@correo.edu.co,57 325 885 62 74,"Av. calle 7ª # 25-7 Sur, Apartamento 71, 956203, San José del Guaviare",2023-08-29,*JFd&(gpe1,Bibliotecario,5
+171,Camila,,Orozco,Sarmiento,camila.orozco@correo.edu.co,57 329 206 23 14,"Cl. 1ª # 2-31, 501968, Guamal, Meta",2024-02-19,)6jvri6q$A,Externo,3
+172,Nicolás,,Muñoz,Cifuentes,nicolas.munoz@correo.edu.co,01 8003 469 544,"Carrera 48 # 18-85 Sur, Apartamento 78, 526274, Belén, Nariño",2023-12-09,Aba9Iuzc#B,Estudiante,5
+173,Mariana,Sara,García,Carvajal,mariana.garcia@correo.edu.co,313 016 47 28,"Avenida Yepes # 7-7, Apto. 869, 632629, Buenavista, Quindío",2023-09-19,+8W)lHMnzb,Docente,8
+174,Eliana,Cecilia,Zapata,Rincón,eliana.zapata@correo.edu.co,3102157231,"Cl. 9ª # 7J-2 Sur, 152560, Tibaná, Boyacá",2018-02-19,#+YtsLb1(1,Estudiante,8
+175,Ever,,Trujillo,Gutiérrez,ever.trujillo@correo.edu.co,(+57) 602 332 21 09,"Cr. 198P # 5-1, 258343, Tenjo, Cundinamarca",2025-01-29,_&1vNsqPa@,Bibliotecario,5
+176,Cecilia,Maribel,Chacón,Delgado,cecilia.chacon@correo.edu.co,573235587745,"Calle 45 # 8-91 Este, Oficina 48, 157254, Pajarito, Boyacá",2025-02-14,(y6FSRRa27,Estudiante,8
+177,Carmen,,Vásquez,Zapata,carmen.vasquez@correo.edu.co,+573187120753,"Cr. 8ª # 2W-5 Sur, Torre 7 apartamento 99, 085262, Usiacurí, Atlántico",2021-10-30,@$80UkWuEd,Externo,3
+178,William,,Gaitán,López,william.gaitan@correo.edu.co,57 608 353 33 49,"Carrera 95 # 28-96 Este, Bodega 1, 683434, Güepsa, Santander",2025-08-12,Hw1P)FVq(L,Externo,8
+179,Roberto,Juan,Gómez,Villegas,roberto.gomez@correo.edu.co,(+57)3012223954,"Cl. 174 Bis X # 1-4 Sur, Bodega 17, 054836, Retiro, Antioquia",2020-05-06,H6YFf+zp&l,Docente,8
+180,Pablo,Fernanda,Zuluaga,Guerrero,pablo.zuluaga@correo.edu.co,018002784726,"Tr. 104 # 23-3, 259206, San Bernardo, Cundinamarca",2023-12-29,%4GzkxaylE,Bibliotecario,8
+181,Omar,César,Correa,Carrillo,omar.correa@correo.edu.co,320 483 64 81,"Cr. 113 # 76-63 Este, 132193, Santa Cruz de Mompox, Bolívar",2023-01-26,MmNF2PJ3j*,Administrativo,2
+182,Marina,,Aguilar,Cortés,marina.aguilar@correo.edu.co,01 8008 426 723,"Cl. 1Q # 4-72 Sur, Apartamento 810, 201113, Chiriguaná, Cesar",2024-03-11,*zW&FQHyG9,Estudiante,3
+183,Mercedes,Antonio,Meneses,Agudelo,mercedes.meneses@correo.edu.co,857 38 06,"Avenida Castellanos # 56-4 Este, Bodega 47, 549610, Ábrego, Norte de Santander",2021-10-30,lUK07Lyqo#,Docente,2
+184,Lucía,Germán,Correa,González,lucia.correa@correo.edu.co,(+57)3149177326,"Cl. 86 # 4S-44 Sur, Oficina 961, 058597, Anorí, Antioquia",2024-07-25,02Oo4Pib%q,Estudiante,8
+185,Jesús,,Giraldo,Beltrán,jesus.giraldo@correo.edu.co,+57 307 155 34 74,"Cl. 139 Bis K # 4-80 Sur, 447290, Urumita, La Guajira",2020-05-02,xQF8BRyU1%,Bibliotecario,2
+186,Efrén,Andrés,Benavides,Castro,efren.benavides@correo.edu.co,6026737304,"Cl. 88 # 46-53 Sur, 051026, Abriaquí, Antioquia",2020-11-29,7yk4Uh6nw*,Bibliotecario,5
+187,Martha,Juan,Páez,Blanco,martha.paez@correo.edu.co,3110102760,"Cl. 13G # 54-4 Sur, 739779, Piedras, Tolima",2023-07-21,*R5DvtIwcI,Docente,3
+188,Humberto,Nelcy,Mejía,Correa,humberto.mejia@correo.edu.co,321 812 92 36,"Av. carrera 113 # 77H-9 Sur, 135998, Zambrano, Bolívar",2021-05-05,!!UiWhoq5m,Administrativo,5
+189,Adriana,Andrés,Franco,Mendoza,adriana.franco@correo.edu.co,(+57) 308 303 48 57,"Calle 9O # 7Q-53, Oficina 604, 237280, Cotorra, Córdoba",2023-05-11,+CNpwzrSa1,Docente,2
+190,Jhonny,María,Pineda,Arias,jhonny.pineda@correo.edu.co,2526990,"Cl. 39 # 66L-5, Casa 4, 529996, Iles, Nariño",2018-11-27,ZtE0oOc30$,Bibliotecario,2
+191,Luis,Elkin,Rodríguez,Jiménez,luis.rodriguez2@correo.edu.co,+573018206820,"Carrera 87 # 93-39 Sur, 414847, Guadalupe, Huila",2020-01-11,CQ5pUvp1Q+,Estudiante,3
+192,Gabriel,,López,Herrera,gabriel.lopez@correo.edu.co,57 315 768 81 55,"Cr. 15 # 5Y-9 Este, 054487, Rionegro, Antioquia",2023-06-24,rogP_9Xd5%,Docente,2
+193,Erika,,Romero,Benavides,erika.romero@correo.edu.co,(+57)3055881082,"Avenida Jorge Guillermo Hernández # 52-4 Sur, 157459, Tuta, Boyacá",2024-12-07,@)7CTybAcI,Administrativo,3
+194,Elena,,Londoño,Mesa,elena.londono@correo.edu.co,57 321 255 93 50,"Cr. 165 # 2-5 Sur, 184122, Florencia",2018-12-05,O@3%8IdkEY,Externo,8
+195,Estela,,Velásquez,Manrique,estela.velasquez@correo.edu.co,(+57)3035766808,"Cl. 157 # 22-8 Este, 520431, Cumbitara, Nariño",2021-01-29,3rvc5Mc#$x,Externo,2
+196,María,,Arias,Castellanos,maria.arias@correo.edu.co,+573091115320,"Carrera 12 # 93-88 Este, Oficina 5, 173396, Neira, Caldas",2023-06-25,#RRvrhIL1h,Bibliotecario,3
+197,Cristina,José,López,Jiménez,cristina.lopez@correo.edu.co,(+57) 316 474 26 44,"Cr. 158 # 9-8 Sur, 059663, Jericó, Antioquia",2022-12-20,0%K4uTs4kX,Administrativo,8
+198,Lilia,Jesús,Ramírez,Castro,lilia.ramirez@correo.edu.co,(+57) 605 769 08 96,"Cr. 52U # 3-37, Oficina 9, 542923, La Playa, Norte de Santander",2025-11-11,NT77bGQh$r,Estudiante,3
+199,Luz,Mónica,Valencia,Orozco,luz.valencia@correo.edu.co,+573176578680,"Av. carrera 5ª # 4-36 Sur, 057644, Titiribí, Antioquia",2025-09-05,6!265N9dcJ,Docente,2
+200,Marcela,,Vargas,García,marcela.vargas@correo.edu.co,698 50 56,"Transversal 4 Bis N # 8-1 Sur, 153229, Caldas, Boyacá",2018-11-05,*ruhGxgO#3,Externo,2
+201,Doris,Raúl,Hoyos,Roa,doris.hoyos@correo.edu.co,3196599052,"Avenida calle 50 # 87A-6, Apartamento 391, 734358, Chaparral, Tolima",2023-11-20,!$s0NSLcvm,Docente,3
+202,Junior,Lucía,Gutiérrez,García,junior.gutierrez@correo.edu.co,+57 607 774 31 26,"Calle 52 # 65-3 Sur, Oficina 1, 526165, Arboleda, Nariño",2019-10-11,2YN%LBBv*h,Bibliotecario,2
+203,Jennifer,María,Restrepo,García,jennifer.restrepo@correo.edu.co,(+57)6043218167,"Cr. 165C # 80-5, Local 4, 255484, Girardot, Cundinamarca",2023-07-10,#1WcqRCuC(,Administrativo,2
+204,Esteban,,Arango,Martínez,esteban.arango@correo.edu.co,573188051093,"Cr. 143 # 10-9 Sur, 193305, Puracé, Cauca",2022-04-19,5uYZ*inh@6,Externo,5
+205,Ernesto,Hernán,Torres,Rojas,ernesto.torres@correo.edu.co,321 785 68 17,"Cr. 1ª # 25-79 Este, Bodega 69, 527393, Tangua, Nariño",2018-06-04,aO(r3Hwe7A,Bibliotecario,8
+206,Agustín,Nelly,Ramírez,Sepúlveda,agustin.ramirez@correo.edu.co,(+57)3207650946,"Cr. 161 # 7-9, Apartamento 86, 197192, Caldono, Cauca",2021-04-30,+k1AaVotTa,Docente,3
+207,Eduardo,Enrique,Silva,Herrera,eduardo.silva@correo.edu.co,(+57) 327 777 01 49,"Cr. 56T # 87-4 Este, Casa 7, 701956, San Juan de Betulia, Sucre",2023-07-04,dT(90#Lm(^,Docente,3
+208,Orlando,Miguel,Páez,León,orlando.paez@correo.edu.co,310 075 16 74,"Cl. 147O # 63-6 Este, Oficina 88, 868217, Orito, Putumayo",2021-05-16,5rUM4DGoX(,Externo,5
+209,Milena,,Arrieta,González,milena.arrieta@correo.edu.co,696 99 33,"Carrera 67Q # 6-35 Sur, 258305, Gachalá, Cundinamarca",2023-04-27,W+S2Be1+Vb,Estudiante,2
+210,Maira,Carlos,Pérez,Hernández,maira.perez@correo.edu.co,301 778 65 03,"Cl. 124 # 4-65, 257791, Villagómez, Cundinamarca",2022-05-31,CEp_x1Cwg(,Estudiante,8
+211,Rosa,David,Ramírez,Escobar,rosa.ramirez@correo.edu.co,3286708855,"Carrera 89 # 6-53 Este, Oficina 54, 050104, Carolina, Antioquia",2025-03-22,olP1XAvd3#,Docente,8
+212,Moisés,,Ruiz,Contreras,moises.ruiz@correo.edu.co,+57 321 115 70 34,"Transversal 55 # 12-3, 704262, Chalán, Sucre",2023-12-05,$Yd5W9iph6,Bibliotecario,3
+213,Jair,Francisco,Carmona,Roa,jair.carmona@correo.edu.co,+57 307 006 03 98,"Calle 5F Este # 77-25 Sur, 132141, Cantagallo, Bolívar",2019-05-16,(bTgtk2b0E,Bibliotecario,2
+214,Domingo,Juan,Cáceres,Valencia,domingo.caceres@correo.edu.co,573258179157,"Calle 52J # 24-5, Apartamento 69, 182191, Curillo, Caquetá",2023-02-24,@3U2QpIltn,Docente,2
+215,Adolfo,Lucía,Beltrán,Mora,adolfo.beltran@correo.edu.co,573146988866,"Av. carrera 2ª # 24J-6, Etapa 9 apartamento 22, 523675, La Llanada, Nariño",2020-11-19,@*1Ru4En#0,Externo,2
+216,Tatiana,,Forero,Rodríguez,tatiana.forero@correo.edu.co,+57 602 424 62 67,"Avenida calle 8ª # 3-44 Este, Apartamento 332, 178670, Chinchiná, Caldas",2025-05-08,_9YetAxrsO,Estudiante,8
+217,Jesús,Gloria,Jiménez,Pacheco,jesus.jimenez@correo.edu.co,6083330510,"Cr. 3R Este # 46-9 Sur, 275416, Bajo Baudó, Chocó",2021-11-13,2l0uUtHr+j,Externo,5
+218,Magaly,Gerson,Prada,Castro,magaly.prada@correo.edu.co,305 731 89 95,"Cr. 107L # 80U-67, Apto. 29, 253534, El Peñón, Cundinamarca",2025-08-09,s+8RkHyLPe,Externo,5
+219,Luis,María,Valencia,Escobar,luis.valencia@correo.edu.co,(+57)6033948454,"Calle 46 # 25-11 Este, Local 6, 520591, Potosí, Nariño",2022-02-26,*&p7Jhgkpg,Externo,5
+220,Azucena,Elkin,Sánchez,Moreno,azucena.sanchez@correo.edu.co,+57 603 467 87 03,"Avenida María Ana Zambrano # 83N-4, Apto. 31, 975475, Yavaraté, Vaupés",2018-03-29,@zsTg+5mg4,Docente,3
+221,John,Andrés,Palacios,Rodríguez,john.palacios@correo.edu.co,3248510021,"Carrera 7ª # 9-8 Este, 760817, Guacarí, Valle del Cauca",2023-03-04,%U*3F3)y1B,Administrativo,5
+222,Sandra,,Peña,Martínez,sandra.pena@correo.edu.co,576052046010,"Calle 195H # 37-2 Sur, 202072, Bosconia, Cesar",2024-10-06,l&i1TWtqON,Estudiante,2
+223,José,,Restrepo,García,jose.restrepo@correo.edu.co,(+57)3098189397,"Cr. 96 # 8C-4 Sur, 175194, Marquetalia, Caldas",2024-12-06,#xURBv6Y@8,Bibliotecario,3
+224,Nicolás,,López,Bustamante,nicolas.lopez@correo.edu.co,+573136205449,"Avenida carrera 8ª # 1-8 Este, Torre 3 apartamento 84, 196385, San Sebastián, Cauca",2023-06-02,@8%sEafo5G,Bibliotecario,5
+225,Javier,Aida,Benavides,Mora,javier.benavides@correo.edu.co,(+57) 328 922 10 07,"Carrera 97 # 14-51 Este, Apartamento 57, 151246, Sativanorte, Boyacá",2022-07-06,Q68x)9Pc&7,Administrativo,3
+226,Martha,María,González,Restrepo,martha.gonzalez@correo.edu.co,5332570,"Av. Guaviare # 14-49 Este, 276689, Tadó, Chocó",2018-06-26,!*MYZPVh4U,Bibliotecario,2
+227,Paola,Edinson,Duarte,Martínez,paola.duarte@correo.edu.co,+57 326 432 31 45,"Cl. 4ª # 44O-3 Sur, 525917, San Andrés de Tumaco, Nariño",2020-05-26,x&jC7Jqb3a,Docente,5
+228,Fredy,,Galeano,Bedoya,fredy.galeano@correo.edu.co,6041607136,"Transversal 45X # 62-7, 054267, Maceo, Antioquia",2018-04-12,BiU67Dkv@n,Administrativo,3
+229,Edwar,Mariela,Hernández,Bedoya,edwar.hernandez@correo.edu.co,57 310 814 99 40,"Av. carrera 6ª # 9F-18 Sur, Torre 3 apartamento 489, 195803, Guapi, Cauca",2023-03-12,qe!V7KLb7k,Estudiante,2
+230,Emma,Alix,Gutiérrez,Chávez,emma.gutierrez@correo.edu.co,+57 314 930 46 40,"Av. carrera 175 # 4Z-8 Sur, 054862, San Vicente Ferrer, Antioquia",2022-05-28,Ea93Zr(r6),Externo,5
+231,Edilma,Andrea,Mejía,Córdoba,edilma.mejia@correo.edu.co,302 470 79 26,"Cr. 53 # 9-99 Sur, Local 24, 156032, San Luis de Gaceno, Boyacá",2023-01-04,U+uJ2Otrf%,Administrativo,3
+232,Felipe,,Pardo,Pérez,felipe.pardo@correo.edu.co,+573017427183,"Avenida carrera 127 # 7-57 Este, Casa 5, 153936, Ráquira, Boyacá",2024-11-28,iGB*0FPw!4,Externo,5
+233,Virginia,,Bernal,Duarte,virginia.bernal@correo.edu.co,(+57)3195282767,"Carrera 196G # 29-62, Etapa 3 apartamento 44, 733732, Natagaima, Tolima",2019-01-02,!K0!s0EmGq,Externo,3
+234,Patricia,Roberto,Acosta,González,patricia.acosta@correo.edu.co,6042520898,"Calle 47 # 5I-91 Sur, Torre 1 apartamento 69, 683773, Vélez, Santander",2021-10-30,!tVZs@+w2W,Estudiante,2
+235,Jesús,Alcira,Bohórquez,Barbosa,jesus.bohorquez@correo.edu.co,57 606 789 45 23,"Transversal 175D # 19-4, Casa 4, 055998, Peque, Antioquia",2019-08-01,$kpR8%Cq08,Docente,2
+236,Antonio,Deisy,Bernal,Delgado,antonio.bernal@correo.edu.co,57 325 585 09 59,"Calle 78F # 58D-31, Etapa 6 apartamento 192, 156694, Arcabuco, Boyacá",2021-11-30,8rt3Ut_OG%,Bibliotecario,3
+237,Manuela,Fabio,Erazo,Espinosa,manuela.erazo@correo.edu.co,+57 317 407 88 69,"Calle 164 # 47Q-8 Este, Local 979, 761066, Zarzal, Valle del Cauca",2019-12-19,M^)5G(gobQ,Externo,3
+238,Luis,,Ortiz,Rodríguez,luis.ortiz@correo.edu.co,576098793651,"Av. carrera 171 # 7-8, Oficina 39, 523273, Roberto Payán, Nariño",2018-04-30,@jLPUkH5a2,Bibliotecario,2
+239,Julián,,Márquez,Pardo,julian.marquez@correo.edu.co,(+57)3178369030,"Carrera 197T # 1Z-87, Etapa 2 apartamento 45, 209856, Gamarra, Cesar",2020-11-23,8Fn&0KApg^,Bibliotecario,2
+240,Luis,Ana,Padilla,Luna,luis.padilla@correo.edu.co,+57 313 876 21 57,"Cl. 127I # 23-5, Etapa 1 apartamento 656, 738248, Villahermosa, Tolima",2025-10-02,M9Qc0q_e+V,Bibliotecario,8
+241,Luis,,Rodríguez,Cruz,luis.rodriguez3@correo.edu.co,57 605 632 04 48,"Carrera 49 # 71-5 Sur, Bodega 84, 687660, Cerrito, Santander",2018-11-20,*wPHFzKH6x,Estudiante,3
+242,María,,Sandoval,Chaparro,maria.sandoval@correo.edu.co,+57 602 896 45 52,"Calle 9A Bis C # 7-30 Este, 522754, La Florida, Nariño",2023-08-19,(7Zv%l_Ix2,Estudiante,5
+243,Rocío,Luz,López,Benavides,rocio.lopez@correo.edu.co,57 303 011 18 40,"Calle 5C # 8-5 Sur, 632452, Buenavista, Quindío",2020-08-06,^LUGaLka*8,Estudiante,8
+244,Alejandro,,Córdoba,Blanco,alejandro.cordoba@correo.edu.co,018006417825,"Transversal 193 # 5-38 Sur, 546947, El Tarra, Norte de Santander",2025-08-23,(5KTor$p!D,Externo,8
+245,Manuel,Harol,Álvarez,Pinzón,manuel.alvarez@correo.edu.co,+57 603 203 87 21,"Cl. 7ª # 43-6, 524622, Leiva, Nariño",2019-02-14,ggBbJ85Z(2,Docente,8
+246,Javier,Kevin,Martínez,Loaiza,javier.martinez@correo.edu.co,(+57) 324 350 74 50,"Av. calle 23 # 1-8 Sur, Torre 3 apartamento 90, 234404, Chinú, Córdoba",2022-07-16,c@8uhOFhKD,Bibliotecario,2
+247,Estefanía,Delia,Torres,Ruiz,estefania.torres@correo.edu.co,01 8001 471 266,"Diagonal 150C # 53D-4 Este, Apto. 6, 689427, Florián, Santander",2023-12-15,$nBxZC19L9,Estudiante,8
+248,Inés,,Villegas,Pacheco,ines.villegas@correo.edu.co,57 606 627 59 39,"Avenida calle 165 # 10-5 Sur, Apto. 5, 706220, Ovejas, Sucre",2022-10-23,$96+jlIg_d,Docente,5
+249,Óscar,Daniela,Sánchez,Palacios,oscar.sanchez@correo.edu.co,+57 327 857 10 93,"Tr. 95 # 86-67 Sur, Local 4, 199006, Patía, Cauca",2021-09-29,(0ax5RnJ&1,Docente,8
+250,Amparo,Armando,Martínez,Jiménez,amparo.martinez@correo.edu.co,3235175735,"Cr. 4ª # 37-35 Este, 089656, Repelón, Atlántico",2025-04-30,Z&&4rQgiNV,Externo,2
+251,Ángela,Rosalba,Gómez,García,angela.gomez@correo.edu.co,(+57) 608 164 30 29,"Cr. 44 # 62-19, Apto. 42, 971093, Yavaraté, Vaupés",2023-01-26,sT@4Sblm+S,Estudiante,8
+252,Yamile,Eduardo,Rodríguez,Angarita,yamile.rodriguez@correo.edu.co,+573282446666,"Calle 36 # 72-7 Este, Torre 7 apartamento 138, 415085, Santa María, Huila",2023-11-25,#L3OZAnyRf,Externo,5
+253,Nataly,Liliana,Sandoval,Moreno,nataly.sandoval@correo.edu.co,+57 306 661 05 14,"Cr. 3W Bis T # 5-14, 542886, El Carmen, Norte de Santander",2021-06-12,c9eL&b8o_4,Estudiante,5
+254,Paola,Carlos,Ramírez,Correa,paola.ramirez@correo.edu.co,(+57)6091237793,"Calle 23A Este # 2-43, Casa 3, 136318, Santa Rosa del Sur, Bolívar",2020-08-21,9&3^NV)WJc,Administrativo,5
+255,Alberto,Yesid,Núñez,López,alberto.nunez@correo.edu.co,(+57)3275690001,"Av. Vichada # 61P-2 Sur, 134834, El Guamo, Bolívar",2024-05-20,%(yJnS!NR7,Administrativo,3
+256,Alexander,Felipe,Delgado,Prieto,alexander.delgado@correo.edu.co,018003491232,"Cr. 35 # 66-32 Este, Oficina 19, 152418, Gachantivá, Boyacá",2021-04-10,(2Tf0wCh!c,Docente,5
+257,Martha,Ricardo,Ospino,Correa,martha.ospino@correo.edu.co,018006290251,"Cl. 6P # 5-10 Sur, Torre 9 apartamento 727, 470220, Sitionuevo, Magdalena",2023-02-25,$^bTBBRq19,Externo,8
+258,Tatiana,Maira,Rincón,Ardila,tatiana.rincon@correo.edu.co,01 8003 076 440,"Tr. 92H # 1-2 Este, 502727, El Dorado, Meta",2024-05-22,(&En6a2G#3,Externo,8
+259,Angie,,Castillo,Martínez,angie.castillo@correo.edu.co,324 711 70 64,"Cr. 148J # 93-28 Este, Local 883, 952407, San José del Guaviare",2020-06-24,w81dDdyI^!,Bibliotecario,5
+260,Jairo,Diana,Gómez,Sánchez,jairo.gomez@correo.edu.co,608 176 45 17,"Calle 3 Bis V # 3-13 Este, 155347, Paya, Boyacá",2025-01-10,^7T95UOwwX,Externo,2
+261,Claudia,Rodrigo,Gómez,Ayala,claudia.gomez@correo.edu.co,57 309 866 39 84,"Cr. 186R # 36-82, Etapa 9 apartamento 523, 545652, Chinácota, Norte de Santander",2019-10-22,s^3%*Hjj(d,Docente,8
+262,Eduardo,,Muñoz,Barrios,eduardo.munoz@correo.edu.co,(+57)3126362886,"Dg. 22 # 8-6 Sur, 195514, Florencia, Cauca",2018-05-04,C4JmYsAp)G,Estudiante,5
+263,Antonio,,González,Chávez,antonio.gonzalez@correo.edu.co,(+57) 307 924 64 29,"Avenida San Bernardo # 69-41, 763998, Jamundí, Valle del Cauca",2018-03-11,!Fv^RKNz7s,Bibliotecario,5
+264,Carolina,,Valencia,Ramírez,carolina.valencia@correo.edu.co,(+57)6054081246,"Cr. 161 # 76-49 Este, Oficina 33, 734606, Honda, Tolima",2018-09-11,r*p%4TddDJ,Externo,2
+265,Carlos,Sandra,Galeano,Ruiz,carlos.galeano@correo.edu.co,+57 601 331 60 04,"Dg. 198 Bis # 1-85 Este, Casa 98, 732120, Melgar, Tolima",2019-02-04,&hLq6uTt87,Bibliotecario,8
+266,Inés,,Reyes,Vargas,ines.reyes@correo.edu.co,018006159528,"Cl. 87 # 99-4 Sur, 479829, Ariguaní, Magdalena",2025-01-29,*Y#AWpRBj6,Docente,3
+267,Franco,Bibiana,Rodríguez,Hernández,franco.rodriguez@correo.edu.co,318 696 60 96,"Carrera 3ª # 7-52 Este, 235121, Chimá, Córdoba",2025-04-18,q)%1QakYBF,Administrativo,8
+268,Nelcy,,Cárdenas,Ariza,nelcy.cardenas@correo.edu.co,(+57)3107655737,"Carrera 101 # 35-82 Este, Local 31, 255846, Nariño, Cundinamarca",2019-09-11,_iTi+kH6q2,Administrativo,8
+269,Enrique,Ruth,Gómez,Rodríguez,enrique.gomez@correo.edu.co,01 8004 159 124,"Cl. 52 # 34-7 Este, 151397, Somondoco, Boyacá",2019-01-10,P_067IbW#1,Administrativo,5
+270,Neider,,Santos,Díaz,neider.santos@correo.edu.co,(+57)3080419171,"Cr. 4ª # 16-3 Este, Apartamento 4, 548544, Chitagá, Norte de Santander",2025-01-20,4tR!c9GcNy,Docente,3
+271,Sebastián,,Cárdenas,Álvarez,sebastian.cardenas@correo.edu.co,314 590 34 81,"Cl. 1H # 42-4, Etapa 4 apartamento 6, 472693, Salamina, Magdalena",2023-08-31,_y1aBhGlF@,Administrativo,2
+272,Blanca,Sandra,Barrera,González,blanca.barrera@correo.edu.co,573148762164,"Diagonal 6F # 1-3, Etapa 3 apartamento 83, 259406, Guayabetal, Cundinamarca",2025-08-31,3t(F5QyTs+,Bibliotecario,2
+273,Kelly,Daniel,Pineda,Martínez,kelly.pineda@correo.edu.co,(+57) 305 644 64 52,"Cl. 91 Bis A # 67-1, 252867, Fúquene, Cundinamarca",2024-02-21,4oXhM_ZD_),Bibliotecario,2
+274,Esmeralda,Raúl,Gómez,Acevedo,esmeralda.gomez@correo.edu.co,57 304 603 16 13,"Avenida carrera 8ª # 9-42, 414575, Baraya, Huila",2025-10-20,s(&E$6Pv^E,Externo,8
+275,Javier,Ana,Salazar,Velásquez,javier.salazar@correo.edu.co,573109363646,"Calle 124 # 38C-6 Sur, Local 611, 053395, Cañasgordas, Antioquia",2020-03-01,)wZJCoss)6,Estudiante,2
+276,Andrés,Carlos,Niño,Pineda,andres.nino@correo.edu.co,3231963052,"Calle 101 # 5-7 Este, Apartamento 59, 762591, Bugalagrande, Valle del Cauca",2018-12-10,+yh0nDpzan,Bibliotecario,3
+277,Mireya,Milena,Ramírez,Peña,mireya.ramirez@correo.edu.co,316 735 77 56,"Avenida carrera 82 # 3-53 Este, Casa 91, 274003, Medio Baudó, Chocó",2020-03-30,#3Jwfko^7d,Administrativo,3
+278,María,Santiago,Zuluaga,Sandoval,maria.zuluaga@correo.edu.co,(+57)3186218531,"Cl. 59 # 28-4, Apto. 37, 153666, Chinavita, Boyacá",2021-08-10,8&25XSbqz#,Externo,2
+279,Alexander,,Sánchez,Vargas,alexander.sanchez@correo.edu.co,(+57)3127567195,"Cl. 59 # 99-61, Torre 1 apartamento 688, 057126, San Rafael, Antioquia",2023-11-10,P+t9^QhKIU,Externo,8
+280,Carmenza,Pedro,Hernández,Pabón,carmenza.hernandez@correo.edu.co,3026195490,"Cl. 186R # 1-15 Este, 157661, Puerto Boyacá, Boyacá",2020-10-16,)fhW_3lyk1,Administrativo,8
+281,Martín,Carlos,Gutiérrez,Sánchez,martin.gutierrez@correo.edu.co,(+57)3206618536,"Carrera 120 Sur # 79-79 Sur, Bodega 92, 052033, Murindó, Antioquia",2025-11-12,&3K96OsENf,Administrativo,2
+282,Mariana,,Zuluaga,Rincón,mariana.zuluaga@correo.edu.co,3139677054,"Av. carrera 6ª # 9-96 Sur, 544909, Los Patios, Norte de Santander",2023-03-15,$E+J3Wvy_V,Externo,3
+283,Erick,Jaime,Lara,Pacheco,erick.lara@correo.edu.co,+573180401461,"Carrera 55 # 5-83 Sur, Bodega 1, 449007, El Molino, La Guajira",2024-01-08,56Ys83UB$O,Externo,5
+284,Alejandra,María,Jiménez,Montenegro,alejandra.jimenez@correo.edu.co,018004251119,"Cr. 190 # 43-92 Este, 051259, Sabanalarga, Antioquia",2024-12-03,+7JVn0fUBz,Externo,5
+285,Jorge,Carlos,Figueroa,Correa,jorge.figueroa@correo.edu.co,(+57)3087443081,"Calle 80 # 5-9, 760266, Yumbo, Valle del Cauca",2019-06-19,hqDMIDnI(5,Bibliotecario,3
+286,Omar,Luz,Sánchez,Manrique,omar.sanchez@correo.edu.co,+573257405892,"Avenida Marcela Hurtado Durán # 6-6 Sur, 258719, Fúquene, Cundinamarca",2023-12-04,UI3dMjBL@E,Docente,5
+287,Isabel,Yuliana,Benítez,Agudelo,isabel.benitez@correo.edu.co,+576067185111,"Calle 18N # 43R-28 Este, 734670, Flandes, Tolima",2018-04-10,d1NkJ6Yh$4,Bibliotecario,3
+288,Olga,Antonio,Rivas,Hernández,olga.rivas@correo.edu.co,+573170515578,"Cr. 36 # 88-56 Sur, Oficina 4, 154271, Saboyá, Boyacá",2021-10-06,Mu2G8TKq1&,Estudiante,8
+289,Gloria,,Córdoba,Castro,gloria.cordoba@correo.edu.co,573032806253,"Dg. 23 # 1-40 Sur, 251892, Manta, Cundinamarca",2024-04-13,s++NC3Ag&m,Bibliotecario,2
+290,Diana,Pablo,Mora,Forero,diana.mora@correo.edu.co,+57 607 313 25 08,"Avenida calle 38 # 3-69 Este, 947608, Pana Pana, Guainía",2021-11-28,*2HvbHQt@T,Administrativo,3
+291,Cecilia,Helena,Galindo,Molina,cecilia.galindo@correo.edu.co,9336490,"Calle 71 # 76-3, 273430, Bojayá, Chocó",2022-11-30,(4!ZLtpFkU,Externo,3
+292,Andrés,Ana,Flórez,Riascos,andres.florez@correo.edu.co,3200260469,"Calle 7ª # 58-68 Sur, Apto. 893, 056244, Cisneros, Antioquia",2020-02-06,$2C8sjUngo,Administrativo,2
+293,David,Janeth,Pérez,Durán,david.perez@correo.edu.co,6059506671,"Diagonal 92 # 34-39, 507955, El Dorado, Meta",2024-04-14,^#8PpcVoqr,Externo,8
+294,Ruby,,Quintero,Gómez,ruby.quintero@correo.edu.co,+573107324913,"Avenida calle 4ª # 58-5, Torre 1 apartamento 40, 417496, Neiva",2020-07-02,_7WVPgug34,Administrativo,2
+295,Armando,Alexandra,Peña,Vargas,armando.pena@correo.edu.co,+57 601 590 85 05,"Calle 109 # 5-5 Sur, 761823, Zarzal, Valle del Cauca",2019-03-04,UdMN9Whe*R,Bibliotecario,8
+296,Javier,,Reyes,Rojas,javier.reyes@correo.edu.co,3149666072,"Calle 96 # 38-6, 231208, Sahagún, Córdoba",2020-10-30,!39FU_je(K,Administrativo,8
+297,Michael,Freddy,Rojas,Mena,michael.rojas@correo.edu.co,573236781752,"Cl. 4G Bis # 72-1 Este, 252983, San Bernardo, Cundinamarca",2020-01-16,1ln_8L&glO,Docente,5
+298,Javier,Jesús,Zuluaga,Gómez,javier.zuluaga@correo.edu.co,576056967819,"Transversal 168 # 29X-1 Este, Local 831, 543405, Labateca, Norte de Santander",2024-11-07,(0xBY8Jz++,Externo,5
+299,Felix,,Escobar,López,felix.escobar@correo.edu.co,+573187236341,"Carrera 182C # 2S-3 Sur, Apartamento 577, 152657, La Victoria, Boyacá",2019-04-16,Pt09bUrr(*,Externo,3
+300,Alejandro,Luz,Rosero,Rojas,alejandro.rosero@correo.edu.co,3231855967,"Cr. 1ª # 15-36, Bodega 294, 054400, El Bagre, Antioquia",2022-02-27,Bj@z0XQngP,Estudiante,8
+301,Martín,Jairo,Muñoz,Fernández,martin.munoz@correo.edu.co,57 329 925 19 73,"Av. calle 6ª # 3-6 Este, 668371, Pueblo Rico, Risaralda",2022-03-02,+l9TBzi*94,Docente,5
+302,Leonor,William,Gómez,González,leonor.gomez@correo.edu.co,608 166 77 52,"Cr. 142 # 12O-59, 686350, Matanza, Santander",2025-03-16,O(M8poU_Dd,Externo,2
+303,Patricia,,Palacios,Barragán,patricia.palacios@correo.edu.co,(+57) 307 256 04 67,"Cr. 15 # 22-46 Sur, 819061, Cravo Norte, Arauca",2021-09-01,!)9PmhGKx9,Estudiante,2
+304,Yaneth,Antonio,Arango,Aguirre,yaneth.arango@correo.edu.co,3294353286,"Calle 136 # 97-78 Sur, Bodega 98, 133805, Achí, Bolívar",2022-12-06,^B#!gLe!5+,Administrativo,5
+305,Andrés,,Campo,Ortiz,andres.campo@correo.edu.co,723 59 98,"Cr. 6ª # 21-85 Este, 183560, Morelia, Caquetá",2018-06-28,5s6C%CL2*6,Externo,8
+306,Antonio,Jacqueline,Pacheco,González,antonio.pacheco@correo.edu.co,(+57) 306 164 61 52,"Tr. 2ª # 3-81, Local 4, 684708, Guapotá, Santander",2023-12-31,$8Rx6LiA)t,Externo,5
+307,Martha,Alfonso,Agudelo,Rodríguez,martha.agudelo@correo.edu.co,1805889,"Av. Cauca # 70-45 Sur, Apartamento 90, 473405, Remolino, Magdalena",2024-02-13,_8XYxjv*dU,Docente,2
+308,Cecilia,Christian,Gutiérrez,Osorio,cecilia.gutierrez@correo.edu.co,+573264281259,"Avenida carrera 7ª # 3-1, 859591, Villanueva, Casanare",2022-11-20,i1xXeqiG$p,Estudiante,8
+309,Alexandra,Carlos,Herrera,Martínez,alexandra.herrera@correo.edu.co,57 308 964 16 45,"Av. Vaupés # 3-71, Oficina 33, 053072, Puerto Nare, Antioquia",2020-08-20,$6SLhyp29r,Docente,5
+310,Luisa,Víctor,Castro,Hernández,luisa.castro@correo.edu.co,328 859 88 19,"Avenida calle 8ª # 32-4 Sur, Apartamento 759, 182596, La Montañita, Caquetá",2024-01-24,3DC)3gez(Y,Docente,3
+311,Anderson,,Páez,Pinto,anderson.paez@correo.edu.co,+57 601 780 17 71,"Cl. 44U # 30-43 Este, 154735, Pesca, Boyacá",2022-01-24,+1QpnrJNhM,Docente,5
+312,María,,Moreno,Vargas,maria.moreno@correo.edu.co,(+57)3282601877,"Av. carrera 3ª # 3-6 Sur, Local 42, 735393, Falan, Tolima",2024-01-26,76KDY*fQ*&,Bibliotecario,2
+313,Lorena,Myriam,Contreras,Murillo,lorena.contreras@correo.edu.co,(+57) 318 788 42 04,"Tr. 3H # 33-1, 707706, Ovejas, Sucre",2018-03-05,peeNwIcZ^4,Docente,5
+314,Óscar,,Cano,García,oscar.cano@correo.edu.co,309 594 59 21,"Carrera 196 # 4-9 Este, 150194, Guateque, Boyacá",2021-06-20,&yqcJeSY5k,Estudiante,8
+315,Gloria,Víctor,Soto,Hurtado,gloria.soto@correo.edu.co,(+57) 312 515 75 95,"Transversal 122I # 74-7 Sur, Etapa 1 apartamento 71, 150458, Covarachía, Boyacá",2021-12-16,m2$+2Tjg%a,Administrativo,8
+316,Juana,Javier,Duarte,Zapata,juana.duarte@correo.edu.co,(+57)3042658750,"Dg. 3ª # 2A-16 Sur, Apto. 199, 204077, La Paz, Cesar",2020-12-09,yW%6MwshMh,Estudiante,2
+317,Sara,José,Montes,Páez,sara.montes@correo.edu.co,+576063325369,"Cr. 5F Este # 5M-7 Este, 520781, Ipiales, Nariño",2024-06-28,G7dk_1FvU1,Estudiante,2
+318,Rocío,,Murillo,Castellanos,rocio.murillo@correo.edu.co,+573119566300,"Carrera 104 # 2Q-2, 541640, Puerto Santander, Norte de Santander",2021-04-14,2uYhzyWF+5,Externo,3
+319,Ingrid,Miryam,Benavides,Quintero,ingrid.benavides@correo.edu.co,573189907129,"Cr. 41 # 48M-89 Sur, 540029, Chinácota, Norte de Santander",2025-05-29,6&09EFdgzc,Estudiante,3
+320,Sonia,,Peña,García,sonia.pena@correo.edu.co,573255892235,"Calle 193E Este # 95-82 Este, 520630, Iles, Nariño",2023-09-06,)2lW7DlQAg,Docente,5
+321,Yasmín,Lucía,Guzmán,López,yasmin.guzman@correo.edu.co,1185088,"Calle 89 Bis P # 5I-8 Sur, 948105, Pana Pana, Guainía",2021-02-27,RjS9GGYoC@,Bibliotecario,2
+322,Maribel,,Torres,Cantillo,maribel.torres@correo.edu.co,(+57) 602 626 28 19,"Av. Santo Domingo # 2-52, Casa 44, 058734, Abejorral, Antioquia",2019-07-06,^IYIZJp7w0,Externo,8
+323,Andrés,Jairo,Ruiz,González,andres.ruiz@correo.edu.co,01 8001 747 366,"Cr. 58 # 29I-76, 525713, La Unión, Nariño",2022-12-18,N5N5Z^4k)F,Externo,2
+324,Vanessa,,Rincón,Polo,vanessa.rincon@correo.edu.co,018003229000,"Calle 29 # 54-3 Sur, 473658, Ciénaga, Magdalena",2022-04-27,q*)26V%xI&,Bibliotecario,5
+325,Eugenia,Eliecer,Orozco,Ríos,eugenia.orozco@correo.edu.co,(+57) 312 821 96 08,"Transversal 8ª # 4-78 Sur, 733763, Villahermosa, Tolima",2024-09-30,&z0CCSrpZ8,Estudiante,2
+326,Alberto,,Sánchez,León,alberto.sanchez@correo.edu.co,6037107932,"Cl. 61 # 21-8 Sur, 524630, Cumbal, Nariño",2021-02-28,3wvKSZSr^o,Administrativo,8
+327,María,Sofía,Ruiz,Ramírez,maria.ruiz@correo.edu.co,01 8000 536 597,"Avenida carrera 76 # 31-9, 150513, Socotá, Boyacá",2020-10-30,S^61RQCLqh,Estudiante,2
+328,Carolina,,García,Ortega,carolina.garcia@correo.edu.co,323 063 90 85,"Carrera 66 # 80-86 Sur, 888167, San Andrés",2018-04-28,^g9CLovibK,Bibliotecario,3
+329,María,Teresa,Luna,Zambrano,maria.luna@correo.edu.co,+57 328 108 55 87,"Av. carrera 1ª # 11-85 Este, Torre 6 apartamento 852, 158024, Tota, Boyacá",2025-02-14,%@b9H(DdGK,Estudiante,8
+330,Alexander,Maritza,Gómez,Bohórquez,alexander.gomez@correo.edu.co,573158408922,"Cr. 18U # 46H-9, 739356, Herveo, Tolima",2019-02-01,qA4PPNe4D&,Bibliotecario,8
+331,Mariela,Esther,Calderón,Fuentes,mariela.calderon@correo.edu.co,576059453980,"Calle 187S # 1-97, 970961, Pacoa, Vaupés",2021-04-25,*s&Y6RrSE*,Estudiante,3
+332,Eliana,,Moreno,Sánchez,eliana.moreno@correo.edu.co,313 612 76 98,"Cr. 173 Bis D # 81-25 Sur, 687450, Tona, Santander",2020-09-30,vn!t4Fm#7i,Externo,8
+333,Amparo,Johanna,Navarro,Mena,amparo.navarro@correo.edu.co,(+57) 602 296 94 54,"Carrera 83 # 6-36 Sur, 236209, Sahagún, Córdoba",2019-06-04,!#87Vni7kK,Externo,5
+334,Lucía,Sonia,Flórez,Velásquez,lucia.florez@correo.edu.co,(+57) 602 662 13 84,"Transversal 18 # 94-3 Este, 502750, Puerto Gaitán, Meta",2019-06-15,^G!7baFp*j,Bibliotecario,2
+335,Olga,,Monsalve,Hernández,olga.monsalve@correo.edu.co,+573267469588,"Cr. 7G # 37-7 Sur, Etapa 7 apartamento 979, 159449, Muzo, Boyacá",2020-09-01,x(c4asWt12,Bibliotecario,8
+336,Norma,María,Vargas,Gómez,norma.vargas@correo.edu.co,(+57)3088333151,"Dg. 98 Este # 6X-4, Apartamento 268, 812362, Arauquita, Arauca",2020-01-01,@sIS&Ny&5l,Externo,2
+337,Leidy,,Rivera,Martínez,leidy.rivera@correo.edu.co,(+57) 310 262 24 78,"Carrera 2ª # 5-1, Casa 6, 156135, Quípama, Boyacá",2024-03-20,7aHerTsX^1,Estudiante,5
+338,Arbey,Fernanda,Cortés,Castellanos,arbey.cortes@correo.edu.co,01 8002 140 737,"Avenida Córdoba # 1-6 Este, Apartamento 913, 193909, Totoró, Cauca",2018-04-16,kmFyvOQC_6,Estudiante,2
+339,Ángela,Lucero,Lozano,Naranjo,angela.lozano@correo.edu.co,573029322972,"Carrera 64M # 17-18 Sur, 477543, Pijiño del Carmen, Magdalena",2020-10-10,_h4IFxND9a,Estudiante,2
+340,Olga,Zulma,Gómez,Pulido,olga.gomez@correo.edu.co,57 327 099 03 17,"Cr. 76 # 1-21 Sur, Apto. 29, 154333, Soracá, Boyacá",2020-03-10,cCt0!vt0x&,Externo,3
+341,Mauricio,Carmen,Giraldo,Velasco,mauricio.giraldo@correo.edu.co,303 161 40 82,"Transversal 14 # 6-11 Este, 191994, Puracé, Cauca",2022-06-16,!WmIK9ZaI@,Bibliotecario,8
+342,Francisco,Daniela,Díaz,González,francisco.diaz@correo.edu.co,6017228671,"Avenida Onzaga # 51-1 Sur, 689235, Aratoca, Santander",2025-05-09,21OcuPOk*0,Docente,2
+343,Ariel,,Guzmán,Narváez,ariel.guzman@correo.edu.co,(+57) 329 168 31 71,"Cl. 74 # 41-8, 441248, La Jagua del Pilar, La Guajira",2020-02-20,+7!WiAvaSN,Estudiante,8
+344,Jesús,William,Saavedra,Castillo,jesus.saavedra@correo.edu.co,270 61 30,"Transversal 85 # 75-5, Casa 8, 151817, Chiscas, Boyacá",2024-01-31,b!1tS)c%sK,Estudiante,8
+345,Gabriel,Adriana,Castellanos,Pérez,gabriel.castellanos@correo.edu.co,(+57)6073147546,"Carrera 160Q Bis # 6-29 Este, Casa 3, 256421, Villa de San Diego de Ubaté, Cundinamarca",2019-11-28,5+JB5hT71e,Docente,3
+346,Dario,,Rodríguez,Gómez,dario.rodriguez@correo.edu.co,+573141137134,"Cl. 118 # 4Q-1 Sur, 688695, El Carmen de Chucurí, Santander",2024-08-14,@On574Uip5,Externo,8
+347,Andrea,,Osorio,Fuentes,andrea.osorio@correo.edu.co,(+57) 605 153 17 50,"Cl. 195A # 1-6 Este, 239689, Lorica, Córdoba",2022-05-23,Dt5%BgGPH_,Docente,2
+348,Jennifer,Fernando,López,Herrera,jennifer.lopez@correo.edu.co,(+57) 300 627 89 08,"Calle 38 # 42-23, Apartamento 7, 912179, La Pedrera, Amazonas",2018-10-11,_^6PpDhJJc,Administrativo,2
+349,Azucena,,Toro,Díaz,azucena.toro@correo.edu.co,+573057374214,"Cr. 27 # 39-64, 159374, Tota, Boyacá",2024-04-18,boCSsl!e_5,Estudiante,8
+350,Dary,Enrique,Díaz,Rojas,dary.diaz@correo.edu.co,317 238 16 12,"Cl. 6ª # 30V-5 Sur, Apto. 41, 153301, Tinjacá, Boyacá",2025-08-13,meq4_Q1y)T,Docente,8
+351,Luz,,Solano,Cabrera,luz.solano@correo.edu.co,573139137085,"Calle 40 # 25-4, Torre 8 apartamento 3, 686822, Oiba, Santander",2024-12-13,e8kJR2Zi*g,Docente,5
+352,Luz,,Vargas,Ortiz,luz.vargas@correo.edu.co,3045540770,"Calle 49R Este # 15-3 Este, Local 45, 054811, Carepa, Antioquia",2019-09-26,(S04NPMpJ9,Bibliotecario,8
+353,Ángel,Nidia,Guerrero,Galindo,angel.guerrero@correo.edu.co,+576027633119,"Calle 87 # 47-80 Este, Apto. 63, 137313, Turbaco, Bolívar",2024-01-13,*R_$3yAnNl,Docente,5
+354,Dairo,Stella,Jiménez,Velásquez,dairo.jimenez@correo.edu.co,323 255 06 52,"Carrera 19V # 6K-1 Este, Local 47, 050720, Giraldo, Antioquia",2025-11-21,l9IpTh8y@L,Externo,3
+355,Elizabeth,Rosa,Manrique,Muñoz,elizabeth.manrique@correo.edu.co,57 311 556 74 09,"Avenida Clemencia # 6-90, Apartamento 279, 180013, San José del Fragua, Caquetá",2025-02-21,&6kw7As$#9,Bibliotecario,8
+356,Johana,Lucero,Contreras,Rojas,johana.contreras@correo.edu.co,018007525604,"Carrera 6ª # 21-38 Este, 150138, Socotá, Boyacá",2021-01-08,c@T(6WLfvK,Bibliotecario,5
+357,Manuel,Yanet,Arenas,Zuluaga,manuel.arenas@correo.edu.co,+57 313 103 23 19,"Transversal 7 Bis # 64-9 Este, 704616, El Roble, Sucre",2018-12-29,&b4PVqpjp#,Estudiante,3
+358,Julio,,Cruz,Becerra,julio.cruz@correo.edu.co,144 89 40,"Cr. 4P # 77-5 Este, Oficina 66, 414887, Suaza, Huila",2020-07-29,*6pD3pOqoU,Docente,5
+359,Eduardo,Ana,González,Díaz,eduardo.gonzalez@correo.edu.co,57 312 642 59 93,"Diagonal 73N # 54-8 Sur, 155910, Gachantivá, Boyacá",2023-11-19,*LovIxzhb1,Bibliotecario,5
+360,Angélica,John,Hernández,Giraldo,angelica.hernandez@correo.edu.co,(+57)3074484555,"Carrera 6ª # 30Y-87 Este, 734205, Coello, Tolima",2019-09-01,*j2QbruwTz,Bibliotecario,3
+361,Amanda,Estela,León,Gómez,amanda.leon@correo.edu.co,573076448294,"Dg. 178 # 8-24 Sur, 191653, Villa Rica, Cauca",2025-05-06,(%cV@9C0Ws,Docente,2
+362,Graciela,,Acosta,Martínez,graciela.acosta@correo.edu.co,+57 322 307 00 81,"Cr. 5Y # 11-28 Este, 194326, Villa Rica, Cauca",2018-12-01,tXUdUAsl&9,Bibliotecario,2
+363,Anderson,Lina,Ceballos,Fernández,anderson.ceballos@correo.edu.co,601 612 03 39,"Dg. 34 # 74-4 Sur, 543837, Convención, Norte de Santander",2024-03-23,Y+C7!y1jkH,Externo,5
+364,John,Yenny,Mosquera,Núñez,john.mosquera@correo.edu.co,(+57)3153267992,"Avenida Ramiro García # 9-7 Sur, 257938, Villeta, Cundinamarca",2025-10-30,7k8X$Ppqk#,Docente,8
+365,Fredy,Blanca,Sarmiento,Reyes,fredy.sarmiento@correo.edu.co,(+57)6052802040,"Av. Caldono # 97-2 Sur, 053370, Barbosa, Antioquia",2024-07-24,E)V6saHzBA,Bibliotecario,2
+366,John,,Acosta,Vélez,john.acosta@correo.edu.co,(+57)6067749317,"Carrera 20 # 2A-5 Este, Bodega 4, 057373, Heliconia, Antioquia",2025-08-02,nyX6qFc7#I,Bibliotecario,5
+367,Alba,Eduardo,Osorio,Castillo,alba.osorio@correo.edu.co,3051435804,"Transversal 6W Sur # 36-80 Sur, 735015, Ataco, Tolima",2023-04-01,pk)ON3Zwto,Bibliotecario,5
+368,Judith,Fredy,Pérez,Álvarez,judith.perez@correo.edu.co,+57 300 694 86 17,"Avenida calle 71 # 9-1, Etapa 2 apartamento 97, 501488, Cubarral, Meta",2019-10-05,p)7TVgGwrz,Estudiante,3
+369,Esneider,Beatriz,Sánchez,Parra,esneider.sanchez@correo.edu.co,6062880501,"Calle 99 # 3-1 Sur, 259704, Bojacá, Cundinamarca",2023-09-12,&8Rs4ECo4h,Bibliotecario,2
+370,Eugenia,Paola,Cruz,García,eugenia.cruz@correo.edu.co,576062076017,"Cr. 87 # 86-36 Este, 945576, Inírida",2020-12-14,l19ApX!fk@,Bibliotecario,2
+371,Leydi,,Torres,Salazar,leydi.torres@correo.edu.co,(+57)3240891205,"Cl. 2ª # 18-38 Sur, Etapa 8 apartamento 7, 252562, Supatá, Cundinamarca",2024-04-22,oZ0$a0c4F*,Bibliotecario,2
+372,Betty,Lizeth,García,Rueda,betty.garcia@correo.edu.co,(+57) 607 196 58 63,"Cl. 90 # 56A-19 Este, Local 483, 150922, Ráquira, Boyacá",2019-10-25,*8tpOZotZ9,Bibliotecario,5
+373,Andrés,José,Ángel,Bolaños,andres.angel@correo.edu.co,57 309 300 46 03,"Carrera 19 # 45-18 Sur, Oficina 104, 447590, Riohacha",2023-10-15,*0+L7(1cpE,Administrativo,8
+374,Edison,Teresa,Rincón,Jiménez,edison.rincon@correo.edu.co,(+57)3088084274,"Cl. 92 # 6-15, 052553, Giraldo, Antioquia",2020-11-20,MiKPFyDf$5,Estudiante,2
+375,Andrea,María,Zambrano,Pinto,andrea.zambrano@correo.edu.co,605 620 07 40,"Cl. 173S Bis # 49-1 Este, Local 7, 087692, Puerto Colombia, Atlántico",2019-12-15,WF$5F$^gm#,Externo,3
+376,David,Marcela,Álvarez,Ojeda,david.alvarez@correo.edu.co,(+57)6047936694,"Av. carrera 28 # 6-28 Sur, 415945, Altamira, Huila",2023-10-18,&*3ZuI4yi),Externo,5
+377,Daniela,,Torres,Delgado,daniela.torres@correo.edu.co,57 301 960 25 09,"Cl. 107 # 36-80 Sur, 153866, Úmbita, Boyacá",2018-04-01,*2TnxNRoj8,Externo,3
+378,Magda,,López,Bautista,magda.lopez@correo.edu.co,018002477075,"Av. calle 128 # 91-76, 153678, Boyacá, Boyacá",2018-08-17,pPt%6Ymf!0,Bibliotecario,2
+379,Adrián,Rubiela,Guevara,Buitrago,adrian.guevara@correo.edu.co,+57 608 124 19 97,"Av. calle 6ª # 9I-84 Este, 238098, Pueblo Nuevo, Córdoba",2018-03-26,)0ZikRtLg_,Estudiante,8
+380,Patricia,Reinel,Pacheco,Salazar,patricia.pacheco@correo.edu.co,573264059974,"Diagonal 112O # 98-8, Apartamento 98, 237825, Tierralta, Córdoba",2020-05-11,wO%*Y1Kz0x,Administrativo,8
+381,Alba,Juan,Castro,Camargo,alba.castro@correo.edu.co,57 303 178 27 30,"Carrera 115A # 74-7, 520784, Barbacoas, Nariño",2019-08-25,Nb9D)sTw7@,Bibliotecario,3
+382,Gloria,Alberto,Portilla,Pérez,gloria.portilla@correo.edu.co,3279406015,"Diagonal 9R # 6-52 Sur, 258833, Apulo, Cundinamarca",2025-10-27,1_J8XHOn$t,Administrativo,8
+383,Hernán,Carlos,Peña,Ramos,hernan.pena@correo.edu.co,57 310 600 12 66,"Carrera 6L # 4-14, Oficina 119, 279100, Cértegui, Chocó",2025-11-16,p)QOAidl@7,Bibliotecario,5
+384,José,Stiven,Pacheco,Bravo,jose.pacheco@correo.edu.co,+576067732166,"Calle 1ª # 34N-82 Sur, Apartamento 81, 157134, Cómbita, Boyacá",2024-09-22,Z%I_3cJsy9,Estudiante,2
+385,María,José,Bermúdez,Monsalve,maria.bermudez@correo.edu.co,+573088755987,"Calle 13D Bis I # 82H-8 Este, 445282, Hatonuevo, La Guajira",2025-10-15,%44_UDLyuO,Bibliotecario,2
+386,Lina,Fernando,Medina,Castro,lina.medina@correo.edu.co,322 834 19 06,"Carrera 71 # 32-91, 684298, Socorro, Santander",2020-05-14,xljxqQQ^&5,Externo,3
+387,Mauricio,Ángela,Buitrago,Romero,mauricio.buitrago@correo.edu.co,+57 315 123 43 44,"Cl. 58O # 8T-40 Este, Bodega 13, 053959, Urrao, Antioquia",2020-02-06,0ZkEA+xq+1,Administrativo,5
+388,Sebastián,,Acevedo,Cárdenas,sebastian.acevedo@correo.edu.co,57 320 507 09 50,"Dg. 126G # 1-82 Este, Casa 7, 637624, Córdoba, Quindío",2025-08-10,OxX0o5IQO(,Estudiante,2
+389,Edwin,Karen,Castro,González,edwin.castro@correo.edu.co,018003857928,"Cl. 147P # 2R-67 Este, 175159, Samaná, Caldas",2021-11-13,^^Uj^bg3CG,Estudiante,2
+390,Lizeth,Fernando,Sánchez,Arenas,lizeth.sanchez@correo.edu.co,6069027864,"Cr. 60 # 46P-3 Este, 703806, San Juan de Betulia, Sucre",2025-04-19,tce7OUks1(,Externo,3
+391,Andrea,Mauricio,Romero,Camacho,andrea.romero@correo.edu.co,(+57)3087207579,"Cl. 93 # 3-89 Sur, 194596, Silvia, Cauca",2021-01-08,_1ZL!KB(oD,Externo,2
+392,Katerine,Carmen,Rodríguez,Mosquera,katerine.rodriguez@correo.edu.co,607 744 56 61,"Calle 6ª # 5-86 Sur, 703401, Galeras, Sucre",2022-01-12,&2LxNAiCK6,Externo,8
+393,Julián,,Galindo,Osorio,julian.galindo@correo.edu.co,573014706165,"Av. carrera 28 # 46-12 Este, 232890, San Bernardo del Viento, Córdoba",2021-03-22,_lp$DH%Kq6,Bibliotecario,8
+394,Paola,Alexander,Córdoba,Ordóñez,paola.cordoba@correo.edu.co,327 963 19 94,"Avenida carrera 183 # 8-9 Este, 661229, Santuario, Risaralda",2023-02-20,Rt7jOYys%J,Externo,3
+395,Liliana,,Vélez,Rodríguez,liliana.velez@correo.edu.co,576066971547,"Cr. 114 # 3-9, Apto. 47, 051156, El Carmen de Viboral, Antioquia",2018-08-11,Z%m65Jk%8t,Bibliotecario,3
+396,Maribel,Leidy,Castrillón,García,maribel.castrillon@correo.edu.co,301 915 18 13,"Cr. 28 # 4-59, 546449, Ábrego, Norte de Santander",2019-06-25,*cyYcKSW8P,Bibliotecario,2
+397,Stiven,,Roa,Álvarez,stiven.roa@correo.edu.co,866 61 17,"Tr. 50 # 67-87, Etapa 3 apartamento 17, 155858, Turmequé, Boyacá",2019-01-23,%&%k0&BhK%,Estudiante,2
+398,Lina,,Olaya,León,lina.olaya@correo.edu.co,318 325 19 90,"Av. calle 8ª # 97-60 Este, 139227, Montecristo, Bolívar",2022-09-07,%2hg7N6q&Q,Docente,5
+399,Mariana,Yaneth,López,Paz,mariana.lopez@correo.edu.co,603 439 85 53,"Tr. 33 # 3-24 Este, Local 13, 737525, Armero, Tolima",2021-06-13,9krCLzOr$!,Estudiante,2
+400,Paul,,Suárez,Delgado,paul.suarez@correo.edu.co,3107828625,"Cl. 105Q # 3-72, 502587, San Juan de Arama, Meta",2019-07-06,F$&21Nho3A,Estudiante,3
