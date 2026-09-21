@@ -1,9 +1,5 @@
 # Chatbot de IA para la gestión de inventario de la biblioteca de Cotecnova
 
-Proyecto de la asignatura de Inteligencia Artificial, Corporación de Estudios Tecnológicos del Norte del Valle (COTECNOVA), Cartago, Valle del Cauca.
-
-Este repositorio contiene el avance de análisis de datos de un chatbot que complementa el trabajo de grado sobre gestión de inventario de la biblioteca. El avance consiste en cargar las tablas de la biblioteca, calcular la disponibilidad y ubicación de cada ejemplar, y realizar un análisis exploratorio de la relación entre el stock de un libro y su uso.
-
 ## 1. Definición del proyecto
 
 ### 1.1 Planteamiento del problema
