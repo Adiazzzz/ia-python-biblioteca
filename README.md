@@ -7,13 +7,13 @@
 La biblioteca de Cotecnova, en Cartago (Valle del Cauca), cuenta con una mala gestión de su inventario, lo que lleva a que no se sepa con certeza qué ejemplares están disponibles, en qué zona se encuentran ni cuáles se están perdiendo o quedando sin devolver. Esto afecta a los dos lados:
 
 - **Los usuarios** (estudiantes, docentes y externos) no pueden saber por su cuenta si un libro está disponible, dónde está ni qué libros hay para su carrera, y terminan dependiendo de preguntarle al bibliotecario.
-- **El bibliotecario** no tiene datos para administrar la colección: no sabe cuáles son los libros más solicitados, cuáles se quedaron sin copias, cuáles nunca se prestan ni qué ejemplares llevan mucho tiempo sin devolverse. Por eso decide qué comprar sin ningún respaldo.
+- **El bibliotecario** no tiene datos para administrar la ejemplares: no sabe cuáles son los libros más solicitados, cuáles se quedaron sin copias, cuáles nunca se prestan ni qué ejemplares llevan mucho tiempo sin devolverse. Por eso decide qué comprar sin ningún respaldo.
 
 El problema de fondo es que la base de datos no guarda la disponibilidad de los ejemplares. Solo registra los préstamos, y el estado de cada copia hay que deducirlo del historial. Por eso se necesita una herramienta que consulte ese historial y responda estas preguntas de forma inmediata: un chatbot de IA.
 
 ### 1.2 Objetivos
 
-**Objetivo general.** Desarrollar un chatbot de inteligencia artificial que permita consultar el inventario de la biblioteca. El bibliotecario podrá obtener información para administrar la colección, y los demás usuarios podrán consultar si un libro está disponible y qué libros se relacionan con su carrera.
+**Objetivo general.** Desarrollar un chatbot de inteligencia artificial que permita consultar el inventario de la biblioteca. El bibliotecario podrá obtener información para administrar la ejemplares, y los demás usuarios podrán consultar si un libro está disponible y qué libros se relacionan con su carrera.
 
 **Objetivos específicos de este avance.**
 
