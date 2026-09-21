@@ -1,5 +1,7 @@
 # Chatbot de IA para la gestión de inventario de la biblioteca de Cotecnova
 
+Proyecto de la asignatura de Inteligencia Artificial, Corporación de Estudios Tecnológicos del Norte del Valle (COTECNOVA), Cartago, Valle del Cauca.
+
 Este repositorio contiene el avance de análisis de datos de un chatbot que complementa el trabajo de grado sobre gestión de inventario de la biblioteca. El avance consiste en cargar las tablas de la biblioteca, calcular la disponibilidad y ubicación de cada ejemplar, y realizar un análisis exploratorio de la relación entre el stock de un libro y su uso.
 
 ## 1. Definición del proyecto
@@ -9,22 +11,23 @@ Este repositorio contiene el avance de análisis de datos de un chatbot que comp
 La biblioteca de Cotecnova, en Cartago (Valle del Cauca), cuenta con una mala gestión de su inventario, lo que lleva a que no se sepa con certeza qué ejemplares están disponibles, en qué zona se encuentran ni cuáles se están perdiendo o quedando sin devolver. Esto afecta a los dos lados:
 
 - **Los usuarios** (estudiantes, docentes y externos) no pueden saber por su cuenta si un libro está disponible, dónde está ni qué libros hay para su carrera, y terminan dependiendo de preguntarle al bibliotecario.
-- **El bibliotecario** no tiene datos para administrar la colección: no sabe cuáles son los libros más solicitados, cuáles se quedaron sin ejemplares, cuáles nunca se prestan ni qué ejemplares llevan mucho tiempo sin devolverse.
+- **El bibliotecario** no tiene datos para administrar la colección: no sabe cuáles son los libros más solicitados, cuáles se quedaron sin copias, cuáles nunca se prestan ni qué ejemplares llevan mucho tiempo sin devolverse. Por eso decide qué comprar sin ningún respaldo.
 
 El problema de fondo es que la base de datos no guarda la disponibilidad de los ejemplares. Solo registra los préstamos, y el estado de cada copia hay que deducirlo del historial. Por eso se necesita una herramienta que consulte ese historial y responda estas preguntas de forma inmediata: un chatbot de IA.
 
 ### 1.2 Objetivos
 
-**Objetivo general.** Desarrollar un chatbot de inteligencia artificial que permita consultar el inventario de la biblioteca. El bibliotecario podrá obtener información para administrar los ejemplares, y los demás usuarios podrán consultar si un libro está disponible y qué libros se relacionan con su carrera.
+**Objetivo general.** Desarrollar un chatbot de inteligencia artificial que permita consultar el inventario de la biblioteca. El bibliotecario podrá obtener información para administrar la colección, y los demás usuarios podrán consultar si un libro está disponible y qué libros se relacionan con su carrera.
 
 **Objetivos específicos de este avance.**
 
 - Cargar las tablas de la biblioteca en Python y estructurarlas como listas de diccionarios.
-- Determinar el estado y la ubicación de cada uno de los ejemplares a partir de su historial de préstamos.
+- Determinar el estado y la ubicación de cada uno de los 2 641 ejemplares a partir de su historial de préstamos.
 - Analizar con NumPy y Matplotlib la relación entre el stock de cada libro y el número de préstamos.
 - Identificar hallazgos que sirvan de base para las respuestas del chatbot y para decisiones de adquisición.
 
-El chatbot funcionará como sistema de consulta y de recomendación. 
+El chatbot funcionará como sistema de consulta y de recomendación. Su construcción corresponde a los siguientes cortes.
+
 ### 1.3 Datos
 
 El proyecto de grado se desarrolla desde tercer semestre, por lo que el grupo ya contaba con el modelo entidad-relación de la biblioteca. Como no se tiene acceso a la información real de la biblioteca de la universidad, los archivos CSV fueron elaborados por el grupo a partir de ese modelo, con datos similares a los que la biblioteca maneja normalmente. Por lo tanto, **los datos son simulados y no corresponden a registros reales**. Los resultados sirven para validar el método y las funciones, y no permiten sacar conclusiones sobre la biblioteca de Cotecnova.
@@ -45,7 +48,7 @@ Se utilizan 11 archivos CSV ubicados en la carpeta `data/`:
 | `autor_libro` | 1 644 | 2 | Relación entre autores y libros |
 | `editorial` | 40 | 2 | Editoriales |
 
-
+Los préstamos abarcan del 2 de enero de 2022 al 28 de diciembre de 2025.
 
 ## 2. Estructura de datos
 
@@ -55,21 +58,61 @@ Todos los valores se leen como texto. Los identificadores se manejan como cadena
 
 ### Funciones del proyecto
 
-| Archivo | Función | Descripción |
-|---|---|---|
-| `cargar_datos.py` | `leer_datos`, `cargar_todo`, `mostrar_resumen` | Leen los CSV como lista de diccionarios y muestran las filas y columnas de cada tabla |
-| `analisis_chatbot.py` | `estado_actual_ejemplares` | Determina el estado de un ejemplar según su préstamo más reciente |
-| | `estado_de_cada_ejemplar` | Aplica lo anterior a los 2 641 ejemplares (sin préstamos, o devuelto, equivale a disponible) |
-| | `contar_estados` | Cuenta los ejemplares por estado |
-| | `libros_sin_disponibilidad` | Devuelve los títulos sin ningún ejemplar disponible |
-| | `no_disponibles_por_zona` | Cuenta los ejemplares fuera de la estantería en cada zona |
-| | `top_libros_prestados` | Devuelve los libros con más préstamos |
-| `eda_proyecto.py` | `construir_stock_prestamos` | Genera una fila por libro con su stock y sus préstamos |
-| | `estadisticas_numpy` | Calcula promedio, máximo, mínimo y desviación estándar con NumPy |
-| | `libros_alta_demanda_bajo_stock` | Selecciona libros con muchos préstamos y pocas copias |
-| `main.py` | `main` | Carga los datos, muestra el resumen y ejecuta el análisis del chatbot |
+El código está en `src/`, en cuatro archivos. `cargar_datos.py` lee los CSV, `analisis_chatbot.py` calcula la disponibilidad de los libros, `eda_proyecto.py` hace el análisis exploratorio y `main.py` ejecuta el primer análisis. El análisis exploratorio se ejecuta por separado.
 
-La función central es `estado_actual_ejemplares`. Recorre la tabla `prestamo_ejemplar` y, para cada ejemplar, conserva el préstamo más reciente; si dos préstamos tienen la misma fecha, prevalece el de mayor identificador. El estado de ese préstamo se toma como el estado actual del ejemplar.
+#### `cargar_datos.py`: lee los archivos
+
+| Función | Qué hace |
+|---|---|
+| `leer_datos(nombre_archivo)` | Lee un archivo CSV y devuelve sus filas como una lista de diccionarios. Si el archivo no existe, muestra un aviso y el programa sigue funcionando. |
+| `cargar_todo()` | Lee los 11 archivos con `leer_datos` y los junta en un solo diccionario. Por ejemplo, `datos["libro"]` es la tabla de libros. |
+| `mostrar_resumen(datos)` | Muestra cuántos registros y qué columnas tiene cada tabla. |
+
+#### `analisis_chatbot.py`: disponibilidad y ubicación
+
+La base de datos no dice si un ejemplar está disponible. Para saberlo, este archivo revisa el último préstamo de cada ejemplar.
+
+| Función | Qué hace |
+|---|---|
+| `estado_actual_ejemplares` | Busca el último préstamo de cada ejemplar y devuelve su estado (`Devuelto`, `Prestado`, `Perdido` o `Danado`). |
+| `estado_de_cada_ejemplar` | Asigna un estado a los 2 641 ejemplares. Si nunca se prestó o ya se devolvió, queda como `Disponible`. |
+| `contar_estados` | Cuenta cuántos ejemplares hay en cada estado. |
+| `libros_sin_disponibilidad` | Devuelve la lista de libros que no tienen ninguna copia disponible. |
+| `no_disponibles_por_zona` | Cuenta cuántos ejemplares no disponibles hay en cada zona de la biblioteca. |
+| `top_libros_prestados` | Devuelve los libros más prestados (por defecto, los 10 primeros). |
+| `grafico_estados`, `grafico_zonas`, `grafico_top_libros` | Dibujan gráficos de barras y los guardan en `outputs/`. |
+| `main` | Ejecuta las funciones anteriores e imprime el informe. |
+
+**Cómo funciona `estado_actual_ejemplares`.** Es la función más importante del proyecto.
+
+1. Recorre los préstamos de cada ejemplar.
+2. Se queda con el más reciente. Si dos préstamos tienen la misma fecha, gana el que tiene el id mayor.
+3. El estado de ese préstamo es el estado actual del ejemplar.
+
+Por ejemplo, si un ejemplar se prestó en enero y se devolvió, y en marzo se prestó otra vez sin devolverse, su estado actual es `Prestado`. Las fechas tienen el formato `AAAA-MM-DD`, por eso se pueden comparar como texto y el orden sale correcto.
+
+**Cómo funciona `estado_de_cada_ejemplar`.** Toma el resultado anterior y lo completa para todos los ejemplares. Los que no aparecen (nunca se han prestado) quedan como `Disponible`, igual que los `Devuelto`. Los demás estados se dejan como `Prestado`, `Perdido` y `Dañado`.
+
+**Cómo funciona `no_disponibles_por_zona`.** La ubicación de cada ejemplar es un texto como `"Zona A - Estante 1 - Nivel 1"`. La función se queda con la primera parte (`"Zona A"`) y cuenta los ejemplares que no están disponibles en cada zona.
+
+#### `eda_proyecto.py`: análisis exploratorio
+
+| Función | Qué hace |
+|---|---|
+| `construir_stock_prestamos` | Arma una tabla con una fila por libro: su título, cuántos ejemplares tiene (stock) y cuántas veces se ha prestado. |
+| `estadisticas_numpy` | Calcula el promedio, el máximo, el mínimo y la desviación estándar de una lista de números con NumPy. |
+| `libros_alta_demanda_bajo_stock` | Busca los libros con 3 o más préstamos y 3 o menos ejemplares, que son los que convendría comprar más. Esos dos números se pueden cambiar. |
+| `grafico_distribucion` | Dibuja cuántos libros tienen 0, 1, 2 o más préstamos. |
+| `grafico_stock_vs_prestamos` | Dibuja el promedio de préstamos según el stock del libro y devuelve esos promedios. |
+| `main` | Ejecuta el análisis: imprime las estadísticas y los hallazgos, genera los gráficos y muestra los 5 primeros candidatos a comprar. |
+
+#### `main.py`
+
+| Función | Qué hace |
+|---|---|
+| `main` | Carga los datos, muestra el resumen de las tablas y ejecuta el análisis de disponibilidad de `analisis_chatbot.py`. |
+
+Este archivo no ejecuta `eda_proyecto.py`. Además, `analisis_chatbot.main()` vuelve a cargar los CSV, por lo que se leen dos veces. Con estos datos no afecta, pero es una mejora pendiente.
 
 ## 3. Análisis exploratorio con NumPy
 
@@ -111,8 +154,9 @@ Además se generan `top_libros_prestados.png`, con los 10 libros más prestados,
 ### Consideraciones
 
 - Los datos son simulados, por lo que estos hallazgos validan el funcionamiento de las funciones y no describen la biblioteca real.
-- La disponibilidad se deduce del último préstamo de cada ejemplar. En los datos, 189 préstamos (21 %) no tienen fecha de devolución y son los que dejan un ejemplar como `Prestado`. Con datos reales sería necesario verificar con la biblioteca el formulario de registro de préstamos.
+- La disponibilidad se deduce del último préstamo de cada ejemplar. En los datos, 189 préstamos (21 %) no tienen fecha de devolución y son los que dejan un ejemplar como `Prestado`. Con datos reales sería necesario verificar con la biblioteca cómo se registran las devoluciones, las pérdidas y los daños.
 - El estado `Danado` aparece sin tilde en los archivos CSV y el código lo muestra como `Dañado`.
+- La desviación estándar es la poblacional (`np.std` con `ddof=0`).
 
 ## 6. Relación con el chatbot
 
