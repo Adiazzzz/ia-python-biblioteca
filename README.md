@@ -1,7 +1,5 @@
 # Chatbot de IA para la gestión de inventario de la biblioteca de Cotecnova
 
-Proyecto de la asignatura de Inteligencia Artificial, Corporación de Estudios Tecnológicos del Norte del Valle (COTECNOVA), Cartago, Valle del Cauca.
-
 Este repositorio contiene el avance de análisis de datos de un chatbot que complementa el trabajo de grado sobre gestión de inventario de la biblioteca. El avance consiste en cargar las tablas de la biblioteca, calcular la disponibilidad y ubicación de cada ejemplar, y realizar un análisis exploratorio de la relación entre el stock de un libro y su uso.
 
 ## 1. Definición del proyecto
@@ -11,23 +9,22 @@ Este repositorio contiene el avance de análisis de datos de un chatbot que comp
 La biblioteca de Cotecnova, en Cartago (Valle del Cauca), cuenta con una mala gestión de su inventario, lo que lleva a que no se sepa con certeza qué ejemplares están disponibles, en qué zona se encuentran ni cuáles se están perdiendo o quedando sin devolver. Esto afecta a los dos lados:
 
 - **Los usuarios** (estudiantes, docentes y externos) no pueden saber por su cuenta si un libro está disponible, dónde está ni qué libros hay para su carrera, y terminan dependiendo de preguntarle al bibliotecario.
-- **El bibliotecario** no tiene datos para administrar la colección: no sabe cuáles son los libros más solicitados, cuáles se quedaron sin copias, cuáles nunca se prestan ni qué ejemplares llevan mucho tiempo sin devolverse. Por eso decide qué comprar sin ningún respaldo.
+- **El bibliotecario** no tiene datos para administrar la colección: no sabe cuáles son los libros más solicitados, cuáles se quedaron sin ejemplares, cuáles nunca se prestan ni qué ejemplares llevan mucho tiempo sin devolverse.
 
 El problema de fondo es que la base de datos no guarda la disponibilidad de los ejemplares. Solo registra los préstamos, y el estado de cada copia hay que deducirlo del historial. Por eso se necesita una herramienta que consulte ese historial y responda estas preguntas de forma inmediata: un chatbot de IA.
 
 ### 1.2 Objetivos
 
-**Objetivo general.** Desarrollar un chatbot de inteligencia artificial que permita consultar el inventario de la biblioteca. El bibliotecario podrá obtener información para administrar la colección, y los demás usuarios podrán consultar si un libro está disponible y qué libros se relacionan con su carrera.
+**Objetivo general.** Desarrollar un chatbot de inteligencia artificial que permita consultar el inventario de la biblioteca. El bibliotecario podrá obtener información para administrar los ejemplares, y los demás usuarios podrán consultar si un libro está disponible y qué libros se relacionan con su carrera.
 
 **Objetivos específicos de este avance.**
 
 - Cargar las tablas de la biblioteca en Python y estructurarlas como listas de diccionarios.
-- Determinar el estado y la ubicación de cada uno de los 2 641 ejemplares a partir de su historial de préstamos.
+- Determinar el estado y la ubicación de cada uno de los ejemplares a partir de su historial de préstamos.
 - Analizar con NumPy y Matplotlib la relación entre el stock de cada libro y el número de préstamos.
 - Identificar hallazgos que sirvan de base para las respuestas del chatbot y para decisiones de adquisición.
 
-El chatbot funcionará como sistema de consulta y de recomendación. Su construcción corresponde a los siguientes cortes.
-
+El chatbot funcionará como sistema de consulta y de recomendación. 
 ### 1.3 Datos
 
 El proyecto de grado se desarrolla desde tercer semestre, por lo que el grupo ya contaba con el modelo entidad-relación de la biblioteca. Como no se tiene acceso a la información real de la biblioteca de la universidad, los archivos CSV fueron elaborados por el grupo a partir de ese modelo, con datos similares a los que la biblioteca maneja normalmente. Por lo tanto, **los datos son simulados y no corresponden a registros reales**. Los resultados sirven para validar el método y las funciones, y no permiten sacar conclusiones sobre la biblioteca de Cotecnova.
@@ -48,7 +45,7 @@ Se utilizan 11 archivos CSV ubicados en la carpeta `data/`:
 | `autor_libro` | 1 644 | 2 | Relación entre autores y libros |
 | `editorial` | 40 | 2 | Editoriales |
 
-Los préstamos abarcan del 2 de enero de 2022 al 28 de diciembre de 2025.
+
 
 ## 2. Estructura de datos
 
@@ -114,9 +111,8 @@ Además se generan `top_libros_prestados.png`, con los 10 libros más prestados,
 ### Consideraciones
 
 - Los datos son simulados, por lo que estos hallazgos validan el funcionamiento de las funciones y no describen la biblioteca real.
-- La disponibilidad se deduce del último préstamo de cada ejemplar. En los datos, 189 préstamos (21 %) no tienen fecha de devolución y son los que dejan un ejemplar como `Prestado`. Con datos reales sería necesario verificar con la biblioteca cómo se registran las devoluciones, las pérdidas y los daños.
+- La disponibilidad se deduce del último préstamo de cada ejemplar. En los datos, 189 préstamos (21 %) no tienen fecha de devolución y son los que dejan un ejemplar como `Prestado`. Con datos reales sería necesario verificar con la biblioteca el formulario de registro de préstamos.
 - El estado `Danado` aparece sin tilde en los archivos CSV y el código lo muestra como `Dañado`.
-- La desviación estándar es la poblacional (`np.std` con `ddof=0`).
 
 ## 6. Relación con el chatbot
 
