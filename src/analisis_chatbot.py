@@ -8,7 +8,7 @@ import numpy as np
 
 from cargar_datos import cargar_todo
 
-CARPETA_SALIDA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "outputs")
+CARPETA_SALIDA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "/outputs/graficos")
 
 
 def estado_actual_ejemplares(prestamos, prestamos_ejemplar):
