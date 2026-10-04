@@ -228,7 +228,7 @@ Para los siguientes cortes se plantea:
 
 # Preparación de Datos
 
-Segundo corte, clase u8.
+Segundo corte, clase 8.
 
 En este script se hace un análisis de datos con los csv trabajados previamente, imprime el EDA de las tablas, construye el un tbla con un registro por préstamo, se generan 5 gráficos y guarda el dataset generado.
 
@@ -237,12 +237,12 @@ En este script se hace un análisis de datos con los csv trabajados previamente,
 
 | Tabla.columna | Nulos | Qué significa | Decisión |
 |---|---|---|---|
-| `prestamo.fecha_devolucion` | 189 de 900 (21.0 %) | El préstamo todavía no se ha cerrado | **No se imputa.** Inventar una fecha de devolución falsearía todos los cálculos de retraso. Se crea la bandera `devuelto` y las columnas de retraso quedan vacías en esas filas. Para el dataset de Machine Learning se **eliminan esas filas** (se usan los 711 préstamos devueltos), porque en los otros no se conoce el resultado. |
+| `prestamo.fecha_devolucion` | 189 de 900 (21.0 %) | El préstamo todavía no se ha cerrado | Inventar una fecha de devolución falsearía todos los cálculos de retraso. Se crea la bandera `devuelto` y las columnas de retraso quedan vacías en esas filas. Para el dataset de Machine Learning se **eliminan esas filas** (se usan los 711 préstamos devueltos), porque en los otros no se conoce el resultado. |
 | `prestamo.observaciones` | 627 de 900 (69.7 %) | El bibliotecario no escribió ninguna nota | Es texto libre y opcional. Se convierte en la columna binaria `tiene_observacion`. |
 | `autor.segundo_nombre` | 123 de 350 (35.1 %) | El autor no tiene segundo nombre | Campo opcional: se rellena con cadena vacía. |
 | `usuario.segundo_nombre` | 143 de 400 (35.8 %) | Igual que en autor | Se rellena con cadena vacía. |
 
-Las demás tablas no tienen nulos. No fue necesario imputar con media o mediana: los nulos que hay no son datos perdidos sino campos opcionales o procesos sin terminar, y rellenarlos con un promedio habría ocultado esa información.
+Las demás tablas no tienen nulos. 
 
 ### Variables categóricas codificadas
 
@@ -269,20 +269,38 @@ El dataset resultante tiene **711 filas y 12 columnas**: 5 variables de entrada 
 
 ### Hallazgos del análisis exploratorio
 
-1. **El plazo del préstamo es lo que más pesa en los retrasos.** El 80.1 % de los préstamos a 7 días se devuelve tarde, contra 60.5 % a 14 días, 41.1 % a 21 días y 22.1 % a 30 días. La causa es que los usuarios se quedan con el libro más o menos el mismo tiempo sin importar el plazo (entre 19 y 21 días en promedio; correlación entre plazo y días reales de −0.025). La prueba chi-cuadrado confirma que la relación no es casualidad (p ≈ 1.7 × 10⁻²⁸). Para la biblioteca esto significa que un préstamo a 7 días termina en multa unas 8 de cada 10 veces.
 
-2. **El 51.6 % de las devoluciones llega tarde (367 de 711) y la multa es mecánica:** siempre $500 por día de retraso, con un total registrado de $2,488,000. Hay una advertencia importante: **los 189 préstamos sin devolver tienen multa $0**, aunque todos están vencidos. Ninguna multa se acumula mientras el libro sigue afuera, así que la deuda real de la biblioteca no se ve en los datos.
+El **plazo del préstamo es uno de los factores que más influye en los retrasos**. Los préstamos de 7 días son los que más se devuelven tarde: el 80.1 % de estos préstamos presentan retraso. En los préstamos de 14 días, el 60.5 % llega tarde; en los de 21 días, el 41.1 %; y en los de 30 días, el 22.1 %.
 
-3. **135 de los 189 préstamos sin cerrar tienen más de un año** (mediana: 758 días). Además, entre los ejemplares de los 189 préstamos sin cerrar hay 25 marcados como `Perdido` y 20 como `Danado`. Estos casos conviene tratarlos como pérdidas y no como préstamos activos, y son justo los "préstamos sin cerrar y multas" que están en la lista de mejoras del proyecto.
+Esto pasa porque, aunque el plazo sea diferente, las personas normalmente se quedan con el libro casi el mismo tiempo: entre 19 y 21 días en promedio. La correlación entre el plazo y los días que realmente tuvieron el libro es de **−0.025**, lo que significa que prácticamente no hay relación entre estas dos cosas. La prueba realizada también confirma que esta diferencia no se debe simplemente al azar. Por eso, para la biblioteca, un préstamo de 7 días termina en multa aproximadamente **8 de cada 10 veces**.
 
-4. **Problema de calidad de datos: 244 préstamos (27.1 %) tienen fecha anterior al registro del usuario**, es decir, alguien pidió prestado un libro antes de existir en el sistema. En una base real, la restricción de fechas debe validarse al insertar.
+En general, el **51.6 % de las devoluciones fueron hechas tarde**, es decir, 367 de 711 préstamos. La multa se calcula de una manera sencilla: se cobran **$500 por cada día de retraso**. En total, aparecen registradas multas por **$2.488.000**.
 
-5. **La demanda se concentra en las carreras académicas.** Los 5 géneros más prestados (Administración de Empresas, Contabilidad, Ingeniería de Sistemas, Diseño e Integración Multimedia y Agropecuaria) suman el 77.1 % de los préstamos; los géneros literarios aparecen con 21 préstamos o menos. Esto respalda que el chatbot priorice la búsqueda por carrera.
+Sin embargo, hay un problema: existen **189 préstamos que todavía aparecen como no devueltos**, pero tienen una multa de $0, aunque ya están vencidos. Esto significa que mientras el libro siga sin devolverse, la multa no aumenta en los datos. Por eso, la cantidad real de dinero que se debería cobrar puede ser mayor a la que aparece registrada.
 
-6. **Hay poca rotación del acervo:** el 39.9 % de los libros (479 de 1,200) nunca se ha prestado y solo 1,018 de 2,641 ejemplares (38.5 %) se han prestado alguna vez. Cada ejemplar adicional suma en promedio 0.48 préstamos por libro (pendiente de la regresión), que es casi exactamente el promedio general (0.476 préstamos por ejemplar). Es decir, la demanda crece de forma proporcional al número de ejemplares y ningún libro destaca de forma extrema (el máximo es de 7 préstamos).
+De esos 189 préstamos que todavía están abiertos, **135 tienen más de un año**. El tiempo medio de estos préstamos es de 758 días. Además, entre los libros de estos préstamos hay **25 marcados como "Perdido" y 20 como "Dañado"**. Estos casos deberían revisarse y posiblemente considerarse como libros perdidos o dañados, en lugar de tratarlos simplemente como préstamos que todavía están activos.
 
-7. **El rol del usuario no explica claramente los retrasos.** Administrativo (61.0 %) y Bibliotecario (43.8 %) son los extremos, pero la diferencia no es concluyente con estas muestras (chi-cuadrado p = 0.084). La distribución de `dias_prestamo` es plana, sin forma de campana: cualquier duración entre 1 y 40 días es igual de frecuente. Los CSV parecen generados (por ejemplo, las observaciones son texto de relleno), así que los patrones reflejan cómo se crearon los datos y habrá que validarlos con registros reales de la biblioteca.
+También se encontró un **problema con las fechas de los datos**. Hay 244 préstamos, que representan el **27.1 %**, donde la fecha del préstamo aparece antes de la fecha en que el usuario fue registrado. Es decir, según el sistema, una persona pidió un libro antes de estar registrada. En una base de datos real esto no debería pasar y sería necesario controlar las fechas cuando se registran los datos.
 
+La mayor parte de los préstamos se concentra en **carreras académicas**. Los cinco grupos con más préstamos son:
+
+- Administración de Empresas
+- Contabilidad
+- Ingeniería de Sistemas
+- Diseño e Integración Multimedia
+- Agropecuaria
+
+Entre todos representan el **77.1 % de los préstamos**. En cambio, los géneros relacionados con literatura tienen muchos menos préstamos, con 21 o menos. Esto indica que el chatbot debería facilitar especialmente la búsqueda de libros por carrera.
+
+También se encontró que **muchos libros casi no se utilizan**. El 39.9 % de los libros, es decir, 479 de 1.200, nunca ha sido prestado. Además, solo 1.018 de los 2.641 ejemplares han sido prestados alguna vez, lo que representa el 38.5 %.
+
+En promedio, por cada ejemplar adicional se generan aproximadamente **0.48 préstamos**, un resultado muy parecido al promedio general de 0.476 préstamos por ejemplar. Esto indica que tener más ejemplares normalmente genera más préstamos, pero no hay un libro que sobresalga demasiado sobre los demás. El libro con más préstamos solo tiene 7.
+
+Por último, **el tipo de usuario no parece ser un factor claro para explicar los retrasos**. Por ejemplo, el 61.0 % de los usuarios administrativos devuelve tarde, mientras que en los bibliotecarios es el 43.8 %. Aunque existe una diferencia, los resultados no son suficientes para decir que el tipo de usuario sea la causa de los retrasos.
+
+También se encontró que los días de préstamo están distribuidos de manera muy pareja: hay préstamos de entre 1 y 40 días y no existe una duración que sea mucho más común que las demás.
+
+Finalmente, hay que tener en cuenta que los datos parecen haber sido **creados para el proyecto y no necesariamente representan el comportamiento real de una biblioteca**, ya que algunas observaciones parecen ser datos de relleno. Por eso, estos resultados sirven para encontrar problemas y tendencias, pero sería importante compararlos después con datos reales de la biblioteca.
 ### Visualizaciones
 
 | Gráfico | Tipo Seaborn | Qué muestra |
@@ -293,6 +311,3 @@ El dataset resultante tiene **711 filas y 12 columnas**: 5 variables de entrada 
 | ![Ejemplares vs préstamos](outputs/graficos/biblioteca_regresion_ejemplares_prestamos.png) | `regplot` | Relación positiva (r = 0.49) entre ejemplares y préstamos por libro. |
 | ![Géneros más prestados](outputs/graficos/biblioteca_barras_generos.png) | `barplot` horizontal | Los 10 géneros con más préstamos. |
 
-### Dataset preparado
-
-`outputs/prestamos_preparados_ml.csv`: 711 filas × 12 columnas, sin nulos y todas numéricas. En la próxima clase se dividirá en entrenamiento y prueba.
