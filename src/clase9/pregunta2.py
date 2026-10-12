@@ -1,15 +1,11 @@
-"""
-neurona_and.py
-Implementación de una neurona artificial simple para aprender la compuerta AND.
-No se usan librerías externas, solo Python puro.
-"""
+
 import matplotlib.pyplot as plt         
 def escalon(z):
-    """Función de activación escalón."""
+  
     return 1 if z >= 0 else 0
 
 def neurona(x1, x2, w1, w2, b):
-    """Calcula la salida de la neurona."""
+    
     z = w1 * x1 + w2 * x2 + b
     return escalon(z)
 
