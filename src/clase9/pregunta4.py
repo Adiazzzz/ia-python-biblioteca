@@ -19,9 +19,7 @@ datos = [
 w1, w2 = 0.1, 0.1 
 b = 0
 tasa_aprendizaje = 0.1
-# ============================================================
-# 5. Entrenamiento manual (varias épocas)
-# ============================================================
+
 print("=" * 60)
 print("ENTRENAMIENTO DE UNA NEURONA PARA LA COMPUERTA AND")
 print("=" * 60)
